@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="images/pavoreal.ico">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/zerogrid.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_400.font.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_700.font.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="js/css3-mediaqueries.js"></script>
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.bg{ behavior: url(js/PIE.htc); }
+	</style>
+  <![endif]-->
+	<!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
+		</div>
+	<![endif]-->
+<style type="text/css">
+#wrap {
+   width:920px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:198px;
+}
+#right_col {
+   float:right;
+   width:700px;
+}
+</style>  
+  
+
+</head>
+
+<body id="page3">
+	<div class="body1">
+	<div class="body2">
+	<div class="body5">
+		<div class="main zerogrid">
+<!-- header -->
+			<header>
+				<div class="wrapper rơw">
+				<h1><a href="index.html" id="logo"><img src="images/logo.png" /></a></h1>
+				<nav>
+					<ul id="menu">
+                                                <li id="nav1"><a href="overview.html">Overview</a></li>
+                                                <li id="nav2"><a href="algorithm.html">Algorithm</a></li>
+                                                <li id="nav3"><a href="analysis.html">Analysis</a></li>
+                                                <li id="nav4"><a href="gallery.html">Gallery</a></li>
+                                                <li id="nav5" class="active"><a href="download.html">Download</a></li>
+					</ul>
+				</nav>
+				</div>
+			</header>
+<!-- header end-->
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="body3">
+		<div class="main zerogrid">
+<!-- content -->
+			<article id="content">
+				<div class="wrapper">
+					<h2 class="under">Download</h2>
+					<div class="wrapper">
+						<section class="col-4-4">
+						<div class="wrap-col">
+							<div class="wrapper pad_bot1">
+								<h6>Cloning the repository</h6>
+								<p align="justify" class="pad_bot1">The Pavoreal code is hosted on Bitbucket, found <a href="https://bitbucket.org/pmocz/pavoreal">here</a>. Obtain a copy of Pavoreal by cloning the repository:</p>
+								<p>
+<code>
+$ git clone https://bitbucket.org/pmocz/pavoreal
+</code>
+								</p>
+							</div>
+						</div>
+						</section>
+					</div>
+				</div>
+        
+        <p><a href="https://bitbucket.org/pmocz/pavoreal"><img src="images/bitbucket.png" alt=""></a><a href="http://www.python.org/"><img src="images/python.png" alt=""></a><a href="http://www.nvidia.com/object/cuda_home_new.html"><img src="images/cuda.png" alt=""></a></p>
+   
+
+				<div class="wrapper">
+					<h2 class="under">Running Pavoreal</h2>
+					<div class="wrapper">
+						<section class="col-4-4">
+						<div class="wrap-col">
+							<div class="wrapper pad_bot1">
+								<p align="justify" class="pad_bot1">See \({\tt readme.txt}\) in the download for instructions on how to run the code on two included example data sets. The code can be run simply with a driver file that imports our Pavoreal python package.</p>
+								<p>
+<code>
+$ python pavoreal.py [config file]
+</code>
+								</p>
+							</div>
+						</div>
+						</section>
+					</div>
+				</div>   
+   
+
+				<div class="wrapper">
+					<h2 class="under">Configuration File Explanation</h2>
+					<div class="wrapper">
+						<section class="col-4-4">
+						<div class="wrap-col">
+							<div class="wrapper pad_bot1">
+								<p align="justify" class="pad_bot1">Below is an explanation of all the available options in the config file. Attributes in parentheses are required for only certain choice of configurations.</p>
+                <div id="wrap">
+                  <div id="left_col">             
+<code>
+<pre>
+
+<b>[Data]</b>
+DataPath:
+FileBase:
+FileExt:
+InitialSnapShot:
+FinalSnapShot:
+DataType:
+(DataField):
+(PostProcess):
+
+BoxX:
+BoxY:
+BoxZ:
+
+
+<b>[Output]</b>
+OutputPath:
+ImageWidthHeight:
+MovieFormat:
+MovieInFPS:
+MovieOutFPS:
+
+
+<b>[Gridding]</b>
+GridNX:
+
+GridNY:
+
+GridNZ:
+
+NSmooth:
+
+
+<b>[VolumeRendering]</b>
+NFramePerSnap
+ImageY:
+ImageZ:
+CameraShiftX:
+CameraShiftY:
+CameraShiftZ:
+CameraYaw:
+CameraPitch:
+CameraRoll:
+CameraLengthToPix:
+CameraPathPeriod:
+
+
+<b>[TransferFunction]</b>
+Min:
+Max:
+TFScheme:
+(ContourV):
+(ContourR):
+(ContourG):
+(ContourB):
+(ContourA):
+(CmapName):
+(AlphaMin):
+(AlphaMax):
+
+</pre>
+</code>
+                  </div>
+                  <div id="right_col">
+<code>
+<pre>
+
+
+# folder path that contains the data
+# data file prefix (same among all snapshots to be read)
+# data file extension (example: .hdf5)
+# initial snapshot number to be read. (gets formatted to %03d)
+# final snapshot number to be read. (gets formatted to %03d)
+# how data should be read (e.g. Arepo, PIC). Add your own support in io.py
+# which hdf5 field to be read (example: /bz) -- for DataType: PIC
+# string for optional processing on the data self.v (examples: np.abs(self.v)**0.25*np.sign(self.v) or self.v for no processing) -- for DataType: PIC
+# the raw data dimension in x
+# the raw data dimension in y
+# the raw data dimension in z
+
+
+
+# path to save output images and movie, needs to exist before running code
+# output image width and height in units of inches
+# format of the output movie (example .mp4)
+# frames/second of the input frames (set less than MovieOutFPS to repeat frames)
+# frames/second of the output movie. The standard setting is 24.
+
+
+
+# size of gridded data/texture in x (including outer layer padding, so add 2 to gridded data set size for best results)
+# size of gridded data/texture in y (including outer layer padding, so add 2 to gridded data set size for best results)
+# size of gridded data/texture in z (including outer layer padding, so add 2 to gridded data set size for best results)
+# range of smoothing kernel when gridding the data (use 0 for no smoothing)
+
+
+
+# number of frames generated per snapshot
+# number of pixels in height
+# number of pixels in width
+# key points for shift of camera xcenter in units of raw data coordinates
+# key points for shift of camera ycenter in units of raw data coordinates
+# key points for shift of camera zcenter in units of raw data coordinates
+# key points for yaw rotation angle of camera grid
+# key points for pitch rotation angle of camera grid
+# key points for roll rotation angle of camera grid
+# the conversion from 1 unit length in camera grid to 1 unit pixel
+# period (# frames) of the camera path
+
+
+
+# global minimum plotting value enforced across all frames
+# global maximum plotting value enforced across all frames
+# transfer function scheme to be used (example: contour or linear)
+# contour data values to pick out -- for TFScheme contour
+# R channel value corresponding to contour peak ([0,1]) -- for TFScheme: contour
+# G channel value corresponding to contour peak ([0,1]) -- for TFScheme: contour
+# B channel value corresponding to contour peak ([0,1]) -- for TFScheme: contour
+# A channel value corresponding to contour peak ([0,1]) -- for TFScheme: contour
+# python color map for voluem rendering (example: jet) -- for TFScheme: linear
+# opacity of global Max value -- for TFScheme: linear
+# opacity of global Min value -- for TFScheme: linear
+
+</pre>
+</code>
+                  </div>
+                </div>
+                
+
+							</div>
+						</div>
+						</section>
+					</div>
+				</div>
+
+
+   
+
+			</article>
+		</div>
+	</div>
+	<div class="body4">
+		<div class="main zerogrid">
+			<article id="content2">
+				<div class="wrapper row">
+                                        <section class="col-1-2">
+                                        <div class="wrap-col">
+                                                <h4>Team members</h4>
+                                                <ul class="list1">
+                                                        <li><a href="https://www.cfa.harvard.edu/~fbecerra">Fernando Becerra</a></li>
+                                                        <li><a href="#">Xinyi Guo</a></li>
+                                                        <li><a href="https://www.cfa.harvard.edu/~pmocz/">Philip Mocz</a></li>
+                                                </ul>
+                                        </div>
+                                        </section>
+                                        <section class="col-1-2">
+                                        <div class="wrap-col">
+                                                <h4>Affiliation</h4>
+                                                <ul class="address">
+                                                        <li>Harvard-Smithsonian Center for Astrophysics</li>
+                                                        <li>60 Garden Street, Cambridge, MA, USA</li>
+                                                </ul>
+                                        </div>
+                                        </section>
+				</div>
+			</article>
+<!-- content end -->
+		</div>
+	</div>
+		<div class="main zerogrid">
+<!-- footer -->
+			<footer>
+				<a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Html5 Templates</a> by <a href="http://www.templatemonster.com/" target="_blank">Templatesmonster.com</a> - 
+				<a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Responsive Themes</a> by <a href="http://www.zerotheme.com/" target="_blank">Zerotheme.com</a>
+			</footer>
+<!-- footer end -->
+		</div>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+	$(document).ready(function() {
+		tabs.init();
+	})
+</script>
+</body>
+</html>

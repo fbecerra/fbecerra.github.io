@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Analysis</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="images/pavoreal.ico">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/zerogrid.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_400.font.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_700.font.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="js/css3-mediaqueries.js"></script>
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.bg{ behavior: url(js/PIE.htc); }
+	</style>
+  <![endif]-->
+	<!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
+		</div>
+	<![endif]-->
+
+</head>
+
+<body id="page2">
+	<div class="body1">
+	<div class="body2">
+	<div class="body5">
+		<div class="main zerogrid">
+<!-- header -->
+			<header>
+				<div class="wrapper rơw">
+				<h1><a href="index.html" id="logo"><img src="images/logo.png" /></a></h1>
+				<nav>
+					<ul id="menu">
+                                                <li id="nav1"><a href="overview.html">Overview</a></li>
+                                                <li id="nav2"><a href="algorithm.html">Algorithm</a></li>
+                                                <li id="nav3" class="active"><a href="analysis.html">Analysis</a></li>
+                                                <li id="nav4"><a href="gallery.html">Gallery</a></li>
+                                                <li id="nav5"><a href="download.html">Download</a></li>
+					</ul>
+				</nav>
+				</div>
+			</header>
+<!-- header end-->
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="body3">
+		<div class="main zerogrid">
+<!-- content -->
+			<article id="content">
+				<div class="wrapper tabs">
+					<div class="nav">
+						<h5><span class="dropcap"><strong>1</strong></span>Comparison of Raycasting Stages between GPU and Serial</h5>
+						<div class="wrapper pad_bot2">
+							<p align="justify" class="pad_bot1"> Here we compare the different stages of the serial code to GPU kernels of the stages of the algorithm (GPU Approach 1) for a fair comparison. We further boost our GPU algorithm by combining kernels (Approach 2) -- see bullet point 5.
+                                   Shown is the time per frame it takes to grid the data, construct the camera grid, interpolate data values along rays, and compute the raycasting for a sample data set. The serial version uses Numpy's built-in nearest neighbour interpolator while the GPU algorithm uses the cubic spline. 
+                                   The interpolation stage is the most expensive of the four stages. We also show the total time it takes to create a movie of 24 frames in the final column. We see that the GPU is faster than the serial code by more than a factor of 1000 in some of the stages.
+                                   The creation of the movie for the GPU algorithm is dominated by grabbing the image from the GPU at the end and storing it as a numpy array to be plotted. </p>
+						<p align="center"><img src="images/turb15_A1.png" alt="" width="670" height="383"></p>
+						</div>
+						<h5><span class="dropcap"><strong>2</strong></span>MPI scaling</h5>
+						<div class="wrapper pad_bot2">
+							<p align="justify" class="pad_bot1">We validate that our algorithm scales strongly with the number of processes. We use MPI to distribute the calculation of the frames across a GPU cluster and in the end the root processor stitches the frames together into a single movie. No communication is required for the 
+                                  calculation of the frames since they are independent. The speedup is equal to the number of processes used and the efficiency is very close to 1. This is true for parallelizing both the serial and GPU version of the code with MPI. We note that using a single GPU is more efficient than
+                                  running our implementation of the serial code on tens of MPI processors.</p>
+							<p align="center"><img src="images/turb15_B1.png" alt="" width="670" height="383"></p> 
+							<p align="center"><img src="images/turb15_B2.png" alt="" width="670" height="383"></p>
+							<p align="center"><img src="images/turb15_B3.png" alt="" width="670" height="383"></p>
+						</div>
+						<h5><span class="dropcap"><strong>3</strong></span>Scaling with Size of Data Set</h5>
+						<div class="wrapper pad_bot2">
+							<p align="justify" class="pad_bot1">Here we show how the serial algorithm and the GPU algorithm (approaches 1 and 2) scale with the size/resolution of the data set. 
+                                  The serial algorithm asymptotes to \(N^3\), where \(N\) is the linear dimension of the 3D data set, quite early because every step of the algorithm
+                                  scales with the number of data points. A large chunk of the algorithm is embarrassingly parallel and the GPU parallelizes this. We see that the total time is flat for small data sets.
+                                  For large data sets, the GPU time does increase, because the time it takes to send and receive the data to the GPU memory scales with the number of data points. The calculations scale as the linear
+                                  dimension of the data since this is proportional to the length of the ray. GPU approach 2, which is computation-heavy is much faster than GPU Approach 1, which uses more threads to do the interpolation step completely in parallel 
+                                  (rather than serially at each point along the traversing raypath) but requires storing these in memory.</p>
+							<p align="center"><img src="images/turb15_C1.png" alt="" width="670" height="383"></p>
+						</div>
+					</div>
+				</div>
+
+			</article>
+		</div>
+	</div>
+	<div class="body4">
+		<div class="main zerogrid">
+			<article id="content2">
+				<div class="wrapper row">
+                                        <section class="col-1-2">
+                                        <div class="wrap-col">
+                                                <h4>Team members</h4>
+                                                <ul class="list1">
+                                                        <li><a href="https://www.cfa.harvard.edu/~fbecerra">Fernando Becerra</a></li>
+                                                        <li><a href="#">Xinyi Guo</a></li>
+                                                        <li><a href="https://www.cfa.harvard.edu/~pmocz/">Philip Mocz</a></li>
+                                                </ul>
+                                        </div>
+                                        </section>
+                                        <section class="col-1-2">
+                                        <div class="wrap-col">
+                                                <h4>Affiliation</h4>
+                                                <ul class="address">
+                                                        <li>Harvard-Smithsonian Center for Astrophysics</li>
+                                                        <li>60 Garden Street, Cambridge, MA, USA</li>
+                                                </ul>
+                                        </div>
+                                        </section>
+				</div>
+			</article>
+<!-- content end -->
+		</div>
+	</div>
+		<div class="main zerogrid">
+<!-- footer -->
+			<footer>
+				<a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Html5 Templates</a> by <a href="http://www.templatemonster.com/" target="_blank">Templatesmonster.com</a> - 
+				<a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Responsive Themes</a> by <a href="http://www.zerotheme.com/" target="_blank">Zerotheme.com</a>
+			</footer>
+<!-- footer end -->
+		</div>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+	$(document).ready(function() {
+		tabs.init();
+	})
+</script>
+</body>
+</html>

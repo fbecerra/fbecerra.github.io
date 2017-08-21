@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pavo Real</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="images/pavoreal.ico">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/zerogrid.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/responsiveslides.css" />
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_400.font.js"></script>
+<script type="text/javascript" src="js/Swis721_Cn_BT_700.font.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+<script type="text/javascript" src="js/jcarousellite.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.bg{ behavior: url(js/PIE.htc); }
+	</style>
+  <![endif]-->
+	<!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
+		</div>
+	<![endif]-->
+	
+	<script src="js/responsiveslides.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 960,
+			namespace: "centered-btns"
+		  });
+		});
+	</script>
+	
+</head>
+<body id="page1">
+<div class="body1">
+	<div class="body2">
+		<div class="main zerogrid">
+<!-- header -->
+			<header>
+				<div class="wrapper row">
+				<h1><a href="index.html" id="logo"><img src="images/logo.png" /></a></h1>
+				<nav>
+					<ul id="menu">
+						<li id="nav1"><a href="overview.html">Overview</a></li>
+						<li id="nav2"><a href="algorithm.html">Algorithm</a></li>
+						<li id="nav3"><a href="analysis.html">Analysis</a></li>
+						<li id="nav4"><a href="gallery.html">Gallery</a></li>
+						<li id="nav5"><a href="download.html">Download</a></li>
+					</ul>
+				</nav>
+				</div>
+
+				<div class="wrapper row">
+					<div class="slider">
+					  	<div class="rslides_container">
+							<ul class="rslides" id="slider">
+                                                                <li><a href="./gallery.html#supersonic"><img src="images/img1.jpg" alt=""></a></li>
+                                                                <li><a href="./gallery.html#subsonic"><img src="images/img2.jpg" alt=""></a></li>
+                                                                <li><a href="./gallery.html#shock"><img src="images/img3.jpg" alt=""></a></li>
+                                                                <li><a href="./gallery.html#reconnection"><img src="images/img4.jpg" alt=""></a></li>
+                                                                <li><a href="./gallery.html#isogal"><img src="images/img6.png" alt=""></a></li>
+                                                                <li><a href="./gallery.html#merger"><img src="images/img5.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+<!-- header end-->
+		</div>
+	</div>
+</div>
+	<div class="body3">
+		<div class="main zerogrid">
+<!-- content -->
+			<article id="content">
+				<div class="wrapper">
+					<section class="col-4-4">
+						<div class="wrap-col">
+							<h2 class="under">Lightning fast volume rendering with GPU + MPI</h2>
+							<div class="wrapper">
+								<figure class="left marg_right1"><img src="images/logo2.png" alt=""></figure>
+								<h7>
+								<p align="justify" class="pad_bot1">Pavoreal (spanish for peacock) is an easy to use, general volume rendering tool we developed to visualize simulations from our research.
+                Our aim was to create a rapid visualization tool to animate the large output of our simulations (on both structured and unstructured grids). 
+                Modularity and extendibility of our code is a key focus, so that we may continue to use it with our ongoing research projects. The code is written in Python 
+                and uses both GPUs (with PyCUDA) and MPI to parallelize the creation of presentation-quality movies as much as possible.</p>
+								</p>
+								</h7>
+							</div>
+						</div>
+					</section>
+							<h2 class="under">The Team</h2>
+					<section class="col-1-3">
+						<div class="wrap-col">
+							<div class="wrapper">
+								<figure class="left marg_right1"><img src="images/fbecerra.jpg" alt=""></figure>
+								<p class="pad_bot1">Fernando works on numerical simulations of the formation of the first stars and first galaxies in the Universe.</p>
+							</div>
+						</div>
+					</section>
+					<section class="col-1-3">
+						<div class="wrap-col">
+							<div class="wrapper">
+								<figure class="left marg_right1"><img src="images/xguo.jpg" alt=""></figure>
+								<p class="pad_bot1">Xinyi studies particle acceleration in quasi-relativistic shocks.</p>
+							</div>
+						</div>
+					</section>
+					<section class="col-1-3">
+						<div class="wrap-col">
+							<div class="wrapper">
+								<figure class="left marg_right1"><img src="images/pmocz.jpg" alt=""></figure>
+								<p class="pad_bot1">Philip works on designing new, Galilean-invariant, divergence-free numerical methods for solving MHD on a moving mesh.</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</article>
+		</div>
+	</div>
+	<div class="body4">
+		<div class="main zerogrid">
+			<article id="content2">
+				<div class="wrapper row">
+					<section class="col-1-2">
+					<div class="wrap-col">
+						<h4>Team members</h4>
+						<ul class="list1">
+							<li><a href="https://www.cfa.harvard.edu/~fbecerra">Fernando Becerra</a></li>
+							<li><a href="#">Xinyi Guo</a></li>
+							<li><a href="https://www.cfa.harvard.edu/~pmocz/">Philip Mocz</a></li>
+						</ul>
+					</div>
+					</section>
+					<section class="col-1-2">
+					<div class="wrap-col">
+						<h4>Affiliation</h4>
+						<ul class="address">
+							<li>Harvard-Smithsonian Center for Astrophysics</li>
+							<li>60 Garden Street, Cambridge, MA, USA</li>
+						</ul>
+					</div>
+					</section>
+				</div>
+			</article>
+<!-- content end -->
+		</div>
+	</div>
+		<div class="main zerogrid">
+<!-- footer -->
+			<footer>
+				<a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Html5 Templates</a> by <a href="http://www.templatemonster.com/" target="_blank">Templatesmonster.com</a> - 
+				<a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Responsive Themes</a> by <a href="http://www.zerotheme.com/" target="_blank">Zerotheme.com</a>
+			</footer>
+<!-- footer end -->
+		</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
