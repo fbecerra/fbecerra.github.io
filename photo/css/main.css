@@ -119,6 +119,9 @@ ul {
 /* Sidebar Styles */
 
 .sidebar-nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  /* text-transform: uppercase; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -139,8 +142,6 @@ ul {
 }
 
 .sidebar-nav li a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-left: 2px solid #d0d0d0;
   color: #fff;
   text-decoration: none;
 }
