@@ -187,3 +187,31 @@ ul {
     margin-right: 0;
   }
 }
+
+.dropdown-container {
+  display: none;
+  /* background-color: #262626; */
+  padding-left: 18px;
+  font-size: 12px;
+}
+
+.dropdown-container li{
+  padding: 0;
+}
+
+/* Optional: Style the caret down icon */
+/* .fa-angle-down {
+  right: 0;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+} */
+
+/* .active .fa-angle-down {
+  -moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+} */

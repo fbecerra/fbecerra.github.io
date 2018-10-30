@@ -40,3 +40,20 @@ $("#menu-toggle").on("click", function(e) {
 $("#wrapper").on("mouseleave", function(e) {
     $("#wrapper").removeClass("toggled");
 });
+
+// DROPDOWN MENU
+var dropdown = document.getElementsByClassName("dropdown");
+for (var i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var icon = $(".fa-angle-down", this)
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      $(icon).removeClass('fa-flip-vertical')
+    } else {
+      dropdownContent.style.display = "block";
+      $(icon).addClass('fa-flip-vertical')
+    }
+  });
+}
