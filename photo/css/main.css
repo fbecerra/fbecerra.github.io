@@ -40,7 +40,7 @@ ul {
 .social {
   bottom: 1vh;
   font-size: 1em;
-  height: 25vh;
+  height: 30vh;
   right: 1vw;
   width: 3vw;
 }
@@ -118,6 +118,9 @@ ul {
 
 /* Sidebar Styles */
 
+
+
+
 .sidebar-nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9em;
@@ -133,6 +136,7 @@ ul {
 .sidebar-nav li {
   line-height: 40px;
   text-indent: 20px;
+  /* border-bottom: 1px solid lightgray; */
 }
 
 .sidebar-nav li a {
@@ -152,8 +156,21 @@ ul {
 
 .sidebar-nav>.sidebar-brand {
   font-size: 18px;
-  height: 65px;
+  height: 80px;
   line-height: 60px;
+  padding: 20px 10px 100px 0px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.profile-signature {
+  height: 60px;
+  padding-left: 10px;
+  width: 150px;
 }
 
 .sidebar-nav>.sidebar-brand a {
@@ -164,6 +181,9 @@ ul {
   background: none;
   color: #fff;
 }
+
+/* .copyright{
+} */
 
 @media(min-width:768px) {
   #wrapper {
@@ -190,7 +210,6 @@ ul {
 
 .dropdown-container {
   display: none;
-  /* background-color: #262626; */
   padding-left: 18px;
   font-size: 12px;
 }
@@ -200,18 +219,11 @@ ul {
 }
 
 /* Optional: Style the caret down icon */
-/* .fa-angle-down {
-  right: 0;
-  position: absolute;
+.fa-angle-down {
+  float: right;
+  padding-right: 3vw;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-} */
-
-/* .active .fa-angle-down {
-  -moz-transform: rotate(-180deg);
-	-webkit-transform: rotate(-180deg);
-	-ms-transform: rotate(-180deg);
-	transform: rotate(-180deg);
-} */
+}
