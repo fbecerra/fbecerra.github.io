@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fernando Becerra - Landscape and Nature Photography</title>
+    <title>Sylk - The Photographer's Portfolio Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
@@ -33,13 +33,14 @@
     <meta property="twitter:image" content="https://www.fernandobecerra.com/images/home/DSC_2209.JPG">
     <meta property="twitter:site" content="@fdo_becerra">
 
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/core.css">
     <link rel="stylesheet" type="text/css" href="css/elements.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
   </head>
-  <body class="no-scroll">
+  <body>
     <div id="wrapper" class="container-fluid">
       <header id="main-header"><a href="index.html" class="brand"><span class="name">Fernando Becerra</span><span class="title hidden-xs">Photography</span></a>
         <div class="responsive-nav">
@@ -68,8 +69,46 @@
           </ul>
         </nav>
       </header>
-      <div class="hero fs">
-        <div style="background-image: url(images/home/DSC_2209.JPG);" class="bg"></div>
+      <div class="fs vcenter">
+        <!-- <div style="background-image: url(images/contact/01.jpg);" class="bg faded-more"></div> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h1>Contact</h1>
+              <p>I'm always glad to hear from you, whatever you have to say: comments about my work or website, suggestions to improve something, questions about photography or life, answers to some of my questions, inquiries for prints, project ideas or collaborations -- everything is welcome! </p>
+              <p>I will read every single message and I will try to reply as soon as I can, but, as I'm currently traveling through the Americas, I don't always have access to Internet and hence I might take a little bit longer to get back to you. </p>
+              <div class="social-media">
+                <ul>
+                  <li><a href="https://www.instagram.com/fdo_becerra" target="_blank"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  <li><a href="https://www.500px.com/becerrafernando" target="_blank"><i class="fa fa-500px"></i></a>
+                  </li>
+                  <li><a href="https://www.flickr.com/photos/becerrafernando" target="_blank"><i class="fa fa-flickr"></i></a>
+                  </li>
+                  <li><a href="https://www.twitter.com/fdo_becerra" target="_blank"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li><a href="https://www.medium.com/@fernandobecerra" target="_blank"><i class="fa fa-medium"></i></a>
+                  </li>
+                  <li><a href="https://vimeo.com/fbecerra" target="_blank"><i class="fa fa-vimeo"></i></a>
+                  </li>
+                  <li><a href="mailto:becerrafernando@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-5 col-md-offset-2">
+              <form id="form" action="php/mail.php" class="form mt-md">
+                <label>What's your name? *</label>
+                <input required type="text" name="name" class="form-control">
+                <label>E-mail address *</label>
+                <input required type="email" name="email" class="form-control">
+                <label>Tell me what's up *</label>
+                <textarea required name="message" class="form-control"></textarea>
+                <button id="send" type="submit" class="btn btn-default">Send</button><span class="p-md">* These fields are required</span>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="js/vendor.js"></script>
