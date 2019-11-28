@@ -1,6 +1,6 @@
 # website
 Source code for my website www.fernandobecerra.com
 
-Template is sylkphoto, which you can get through themeforest. You are not allowed to use it without a license.
+sylkphoto template is Copyright Themevillain.
 
 All images are Copyright Fernnado Becerra.
