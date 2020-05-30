@@ -361,7 +361,8 @@ ol {
 }
 
 .site-logo {
-	background: #2916e0;
+	/* background: #2916e0; */
+	background: #0f0f0f;
 	width: calc(100% - 50px);
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -376,6 +377,10 @@ ol {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+}
+
+.site-logo h3 {
+	color: #fff;
 }
 
 .main-menu {
@@ -450,15 +455,15 @@ ol {
 	}
 }
 
-.sm-footer .sm-socail a {
+.sm-footer .sm-social a {
 	display: inline-block;
-	font-size: 18px;
+	font-size: 14px;
 	color: #b2b2b2;
 	margin-right: 30px;
 	margin-bottom: 10px;
 }
 
-.sm-footer .sm-socail a:last-child {
+.sm-footer .sm-social a:last-child {
 	margin-right: 0;
 }
 
@@ -467,6 +472,11 @@ ol {
 	font-weight: 500;
 	color: #b2b2b2;
 	padding-bottom: 40px;
+}
+
+.copyright-text p {
+	font-size: 10px;
+	font-weight: 400;
 }
 
 @media (max-width: 420px) {
