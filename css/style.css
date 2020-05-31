@@ -763,7 +763,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about-img {
 	text-align: center;
-	background-image: url("../img/about-bg.png");
+	/* background-image: url("../img/about-bg.png"); */
 	background-repeat: no-repeat;
 	background-size: inherit;
 	background-position: center center;
@@ -840,9 +840,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .about-text {
-	max-width: 810px;
+	max-width: 890px;
 	margin: 0 auto;
-	padding: 75px 0 50px;
+	padding: 75px 40px 50px 40px;
 }
 
 .about-text h2 {
