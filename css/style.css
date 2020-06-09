@@ -270,7 +270,7 @@ ol {
 .menu-switch {
 	width: 100%;
 	height: 50px;
-	padding-top: 15px;
+	padding-top: 12px;
 	font-size: 20px;
 	text-align: center;
 	color: #fff;
@@ -352,7 +352,7 @@ ol {
 .menu-close {
 	width: 50px;
 	height: 50px;
-	padding-top: 15px;
+	padding-top: 12px;
 	font-size: 20px;
 	text-align: center;
 	color: #fff;
@@ -468,14 +468,15 @@ ol {
 }
 
 .copyright-text {
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 500;
 	color: #b2b2b2;
 	padding-bottom: 40px;
 }
 
 .copyright-text p {
-	font-size: 10px;
+	margin-bottom: 0;
+	font-size: 8px;
 	font-weight: 400;
 }
 
