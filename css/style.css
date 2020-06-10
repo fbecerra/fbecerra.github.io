@@ -860,6 +860,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	margin-bottom: 9px;
 }
 
+.about-text img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	width: 75%;
+}
+
 .skill-warp {
 	max-width: 930px;
 	margin: 0 auto;
