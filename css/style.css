@@ -746,6 +746,24 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	}
 }
 
+.contact-left {
+	background: #0f0f0f;
+	-ms-flex: 0 0 47%;
+	-webkit-box-flex: 0;
+	flex: 0 0 47%;
+	max-width: 47%;
+	padding: 75px 40px 50px 40px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px),
+only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	.about-section .contact-left {
+		max-width: 100%;
+	}
+}
+
 .about-section .about-right {
 	-ms-flex: 0 0 53%;
 	-webkit-box-flex: 0;
@@ -1704,53 +1722,83 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	padding-right: 5px;
 }
 
+.about-text form input,
+.about-text form textarea {
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	padding: 0 20px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-right: 5px;
+}
+
 .comment-form form input:focus,
-.comment-form form textarea:focus {
+.comment-form form textarea:focus,
+.about-text form input:focus,
+.about-text form textarea:focus {
 	border: 1px solid #2916e0;
 }
 
 .comment-form form input::-webkit-input-placeholder,
-.comment-form form textarea::-webkit-input-placeholder {
+.comment-form form textarea::-webkit-input-placeholder
+.about-text form input::-webkit-input-placeholder,
+.about-text form textarea::-webkit-input-placeholder {
 	color: #636363;
 }
 
 .comment-form form input::-moz-placeholder,
-.comment-form form textarea::-moz-placeholder {
+.comment-form form textarea::-moz-placeholder,
+.about-text form input::-moz-placeholder
+.about-text form textarea::-moz-placeholder {
 	color: #636363;
 }
 
 .comment-form form input:-ms-input-placeholder,
-.comment-form form textarea:-ms-input-placeholder {
+.comment-form form textarea:-ms-input-placeholder,
+.about-text form input:-ms-input-placeholder
+.about-text form textarea:-ms-input-placeholder {
 	color: #636363;
 }
 
 .comment-form form input::-ms-input-placeholder,
-.comment-form form textarea::-ms-input-placeholder {
+.comment-form form textarea::-ms-input-placeholder,
+.about-text form input
+.about-text form textarea {
 	color: #636363;
 }
 
 .comment-form form input::-webkit-input-placeholder,
-.comment-form form textarea::-webkit-input-placeholder {
+.comment-form form textarea::-webkit-input-placeholder,
+.about-text form input::-webkit-input-placeholder
+.about-text form textarea::-webkit-input-placeholder {
 	color: #636363;
 }
 
 .comment-form form input::-moz-placeholder,
-.comment-form form textarea::-moz-placeholder {
+.comment-form form textarea::-moz-placeholder,
+.about-text form input::-moz-placeholder
+.about-text form textarea::-moz-placeholder {
 	color: #636363;
 }
 
 .comment-form form input:-ms-input-placeholder,
-.comment-form form textarea:-ms-input-placeholder {
+.comment-form form textarea:-ms-input-placeholder,
+.about-text form input:-ms-input-placeholder
+.about-text form textarea:-ms-input-placeholder {
 	color: #636363;
 }
 
 .comment-form form input::-ms-input-placeholder,
-.comment-form form textarea::-ms-input-placeholder {
+.comment-form form textarea::-ms-input-placeholder,
+.about-text form input::-ms-input-placeholder
+.about-text form textarea::-ms-input-placeholder {
 	color: #636363;
 }
 
 .comment-form form input::placeholder,
-.comment-form form textarea::placeholder {
+.comment-form form textarea::placeholder,
+.about-text form input::placeholder
+.about-text form textarea::placeholder {
 	color: #636363;
 }
 
@@ -1762,7 +1810,15 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	resize: none;
 }
 
-.comment-form form button {
+.about-text form textarea {
+	height: 300px;
+	padding-top: 18px;
+	margin-bottom: 30px;
+	resize: none;
+}
+
+.comment-form form button,
+.about-text form button {
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
