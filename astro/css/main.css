@@ -1,0 +1,43 @@
+body {
+  background: black;
+}
+
+#background {
+   margin:0;
+   padding:0;
+   position:absolute;
+   z-index: -1;
+   display: none;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 200%;
+   /**scalable background to fill available viewport**/
+   background: black center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#title {
+  /* display: none; */
+  position: fixed;
+  left: 2vw;
+  top: 2vh;
+  z-index: 10;
+  color: #E0E0E0;
+}
+
+.name {
+  font-size: 18px;
+  display: block;
+  font-weight: 500;
+}
+
+.subname {
+  font-size: 14px;
+  display: block;
+  font-weight: 300;
+  margin-top: -5px;
+}
