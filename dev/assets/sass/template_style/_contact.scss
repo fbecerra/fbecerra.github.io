@@ -1,0 +1,239 @@
+/*  start contact   */
+
+.somethings_interesting_wrap {
+    background: #fff;
+    padding: 130px 0 35px;
+    .title {
+        color: #333333;
+        font-size: 55px;
+        font-weight: normal;
+        font-family: $ftheavy;
+        letter-spacing: 1px;
+        max-width: 790px;
+        width: 100%;
+        margin: 0 auto 86px;
+    }
+    .interesting_item {
+        max-width: 230px;
+        width: 100%;
+        margin: 0 auto 70px;
+        .interesting_icon {
+            text-align: center;
+            margin-bottom: 20px;
+            img {
+                display: inline-block;
+                max-width: 73px;
+            }
+        }
+        .interesting_content {
+            h4 {
+                color: #171819;
+                font-size: 18px;
+                line-height: 50px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-family: $pop;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            p {
+                color: #171819;
+                font-family: $pop;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: .75px;
+                text-align: center;
+                a {
+                    display: block;
+                    font-weight: 500;
+                    position: relative;
+                    width: 100%;
+                    height: 25px;
+                    overflow: hidden;
+                    span {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        transition:  0.5s;
+                        display: inline-block;
+                        & + span {
+                            top: 100%;
+                        }
+                    }
+
+                    &:hover {
+                        span {
+                            color: #171819;
+                            top: -100%;
+
+                            & + span {
+                                top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact_form_wrap {
+    padding: 35px 0 120px;
+    .contact_form_title {
+        color: #333333;
+        font-size: 55px;
+        font-weight: normal;
+        font-family: $ftheavy;
+        letter-spacing: 2px;
+        margin-bottom: 55px;
+    }
+}
+.contact_form {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    .form-group {
+        margin-bottom: 30px;
+        .form-control {
+            color: #333333;
+            font-weight: 300;
+            font-size: 15px;
+            font-family: $pop;
+            line-height: 30px;
+            border: 1px solid #c1c1c1;
+            box-shadow: none;
+            outline: none;
+            border-radius: 0;
+            height: 60px;
+            padding: 10px 25px;
+            transition: all 0.5s;
+
+            &::-webkit-input-placeholder { 
+              color: #909090;
+            }
+            &::-moz-placeholder { 
+              color: #909090;
+            }
+            &:-ms-input-placeholder { 
+              color: #909090;
+            }
+            &:-moz-placeholder { 
+              color: #909090;
+            }
+            &:focus {
+                border-color: #333333;
+            }
+        }
+
+        textarea.form-control {
+            min-height: 200px;
+        }
+        /*.sibmit_btn {
+            color: #fff;
+            font-weight: 400;
+            font-size: 15px;
+            font-family: $pop;
+            line-height: 30px;
+            background: #292929;
+            border: none;
+            padding: 15px 55px;
+            cursor: pointer;
+            border: 1px solid #292929;
+            transition: all 0.5s;
+        }*/
+        .sibmit_btn {
+            color: #fff;
+            font-weight: 400;
+            font-size: 15px;
+            font-family: $pop;
+            line-height: 30px;
+            color: #fff;
+            background-color: transparent;
+            background-image: linear-gradient(135deg, #292929 50%, transparent 50%); 
+            background-size: 300% 300%; 
+            background-position: 000% 000% ;
+            background-repeat: no-repeat;
+            transition: all 1s;
+            border: none;
+            padding: 15px 55px;
+            cursor: pointer;
+            border: 1px solid #292929;
+            &:hover {
+                background-size: 0px 50px; 
+                background-position: -50px -50px ; 
+                color: #292929;
+            }
+        }
+    }
+}
+
+
+
+/*  end contact   */
+
+
+.navbar .header_main_menu .menu_item  .nav-item.submenu .dropdown-menu {
+    margin: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    left: 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background: #fff;
+    padding: 30px 40px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(12, 0, 46, 0.1);
+    box-shadow: 0px 10px 30px 0px rgba(12, 0, 46, 0.1);
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    z-index: -1;
+}
+
+.navbar .header_main_menu .menu_item  .nav-item.submenu .dropdown-menu {
+    position: relative !important;
+    -webkit-transform: translate3d(0px, 0px, 0px) !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+    display: none;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0s linear;
+    -o-transition: all 0s linear;
+    transition: all 0s linear;
+    z-index: 0;
+    background: transparent;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    max-height: none !important;
+}
+
+.navbar .header_main_menu .nav-item.submenu.show .dropdown-menu {
+    position: relative !important;
+    -webkit-transform: translate3d(0px, 0px, 0px) !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none
+}
+
+.row.m0 {
+    margin: 0
+}
+
+
+body {
+    font: 400 16px/28px 'Poppins', sans-serif;
+    letter-spacing: 0;
+    color: #677294;
+    overflow-x: hidden;
+    background: #000;
+    &.menu_open {
+        overflow: hidden;
+    }
+}
+
+section {
+    background: #fff;
+}
+
+.btn,
+.btn:focus,
+.btn:hover,
+a,
+a:focus,
+a:hover,
+button,
+button:focus,
+button:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.height_vh {
+    height: 100vh;
+}
+
+.dark_bg {
+    background: $dark;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+.bg_strock_text {
+    font-size: 220px;
+    color: transparent;
+    font-weight: normal;
+    font-family: $ftheavy;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+    line-height: 220px;
+}
+
+.go_to_top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1080;
+    display: none;
+}
+
+.go_to_top a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #171819;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.go_to_top a i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+    transition: all 0.5s;
+}
+
+.go_to_top a i + i {
+    top: 100%;
+}
+
+.go_to_top a:hover i {
+    top: -100%;
+}
+
+.go_to_top a:hover i + i {
+    top: 0;
+}
+
+

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+
+
+//-----Color class style
+
+.primary-color {
+    color: $primary-color;
+}
+
+.brand-color {
+    color: $brand-color;
+}
+
+.dark {
+    color: $dark;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.pop {
+    font-family: $pop;
+}
+
+p {
+    font-family: $p-font-family;
+    font-size: $p-font-size;
+    line-height: $p-line-height;
+    font-weight: $p-font-weight;
+    color: $p-font-color;
+}
+
+a {
+    text-decoration: $a-text-decuration;
+    color: $a-color;
+    transition: all 0.3s;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+.hover-color:hover {
+    color: $brand-color;
+}
+
+a:hover {
+    color: $brand-color;
+    text-decoration: $a-text-decuration;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a.link {
+    color: $brand-color;
+}
+
+a.link:hover {
+    color: $brand-color !important;
+}

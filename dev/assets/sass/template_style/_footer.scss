@@ -1,0 +1,149 @@
+/* start footer */
+.footer {
+    background: url(../images/footer_bg.jpg) no-repeat scroll top left / cover;
+    padding: 115px 0 100px;
+    position: relative;
+    z-index: 10;
+    .footer_content {
+        .footer_logo {
+            margin-bottom: 30px;
+            a {
+                display: inline-block;
+                .logo_text {
+                    color: #f6f7fb;
+                    position: relative;
+                    font-size: 25px;
+                    font-weight: normal;
+                    line-height: 40px;
+                    font-family: $ftbook;
+                    letter-spacing: 2px;
+                    &:before {
+                        position: absolute;
+                        content: "/";
+                        left: -35px;
+                        top: -8px;
+                        width: 100%;
+                        height: 100%;
+                        color: #979591;
+                    }
+                }
+            }
+        }
+        .footer_title {
+            color: #f6f7fb;
+            font-size: 50px;
+            font-family: $ftbook;
+            line-height: 55px;
+            letter-spacing: 1px;
+            font-weight: normal;
+            max-width: 542px;
+            width: 100%;
+            margin: 0 auto 60px;
+            span {
+                font-family: $ftheavy;
+            }
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .footer_contact {
+        margin-bottom: 45px;
+        li {
+            display:block;
+            margin-bottom: 10px;
+            a {
+                display: inline-block;
+                color: #bbbbbb;
+                font-family: $pop;
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 500;
+                transition: all 0.5s;
+                height: 28px;
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                max-width: 350px;
+                span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    transition: all 0.5s;
+                    & + span {
+                        top: 100%;
+                    }
+                }
+                &:hover {
+                    span {
+                        top: -100%;
+                        color: #fff;
+                        & + span {
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_social {
+        margin-bottom: 15px;
+        li {
+            display:inline-block;
+            & + li {
+                margin-left: 30px;
+            }
+            a {
+                display: inline-block;
+                font-size: 16px;
+                color: #888888;
+                transition: all 0.5s;
+                width: 20px;
+                height: 16px;
+                position: relative;
+                overflow: hidden;
+                i {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: all .5s;
+                    
+                    & + i {
+                        top: 100%;
+                    }
+                }
+                &:hover {
+                    color: #fff;
+                    i {
+                        top: -100%;
+                        color: #fff;
+                        & + i {
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_copy_right {
+        color: #848892;
+        font-weight: 300;
+        font-size: 13px;
+        font-family: $pop;
+        line-height: 28px;
+        a {
+            color: #bbbbbb;
+            transition: all 0.5s;
+            
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+/* end footer */
