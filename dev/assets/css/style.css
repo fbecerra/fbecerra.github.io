@@ -747,7 +747,8 @@ header.header.headerFixed {
 .hero_warp {
     height: 100vh;
     width: 100%;
-    background: #000 url(../images/hero_bg.jpg) no-repeat fixed top left;
+    /* background: #000 url(../images/hero_bg.jpg) no-repeat fixed top left; */
+    background: #000;
     position: fixed;
     z-index: 1;
 }
@@ -2681,7 +2682,7 @@ header.header.headerFixed {
 /* start footer */
 
 .footer {
-    background: url(../images/footer_bg.jpg) no-repeat scroll top left/cover;
+    /* background: url(../images/footer_bg.jpg) no-repeat scroll top left/cover; */
     padding: 115px 0 100px;
     position: relative;
     z-index: 10;
