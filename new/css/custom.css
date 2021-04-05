@@ -41,12 +41,18 @@
   z-index: 1;
 }
 
-.sidebar-header .logo {
+.sidebar-logo {
+  letter-spacing: 0.1em;
+  color: #120e18;
   display: none;
 }
 
+.sidebar-logo:hover {
+  text-decoration: none;
+}
+
 @media (min-width: 992px) {
-  .sidebar-header .logo {
+  .sidebar-logo {
     display: block;
   }
 
