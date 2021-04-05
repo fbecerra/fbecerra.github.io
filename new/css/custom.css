@@ -12,31 +12,33 @@
   z-index: 99;
   width: 100vw;
   text-align: center;
-  vertical-align: middle;
 }
 
 .sidebar.active .sidebar-inner .sidebar-header{
   text-align: left;
 }
 
-.sidebar.active .sidebar-menu-holder {
-  /* height: 100%; */
-  display: flex;
+.sidebar .sidebar-menu-holder {
   align-items: center;
-  -webkit-box-pack: center;
+  display: flex;
+}
+
+.sidebar.active .sidebar-menu-holder {
+  align-items: center;
+  display: flex;
   justify-content: center;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  -ms-box-align: center;
+  -ms-box-pack: center;
   -webkit-box-align: center;
+  -webkit-box-pack: center;
 }
 
 .page-holder.active {
+  display: none;
   margin-left: 0;
   z-index: 1;
-  display: none;
-}
-
-.sidebar-header {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
 }
 
 .sidebar-header .logo {
@@ -50,5 +52,41 @@
 
   .sidebar-header .navbar-toggler {
     display: none;
+  }
+}
+
+.welcome {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.welcome h1, .welcome h2 {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .welcome h1, .welcome h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .welcome h1, .welcome h2 {
+    font-size: 2.0rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .welcome {
+    padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+
+  .welcome h1, .welcome h2 {
+    font-size: 2.5rem;
   }
 }
