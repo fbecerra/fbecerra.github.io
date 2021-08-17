@@ -52,6 +52,10 @@
   text-decoration: none;
 }
 
+.main-div {
+  padding-top: 0;
+}
+
 @media (min-width: 992px) {
   .page-holder {
     margin-left: 15vw;
@@ -63,6 +67,10 @@
 
   .sidebar-header .navbar-toggler {
     display: none;
+  }
+
+  .main-div {
+    padding-top: 1rem;
   }
 }
 
