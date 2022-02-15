@@ -56,6 +56,27 @@
   padding-top: 0;
 }
 
+ul.list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+li.list-inline-item {
+  color: #d2d2d2;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  list-style-type: none;
+  margin: 0 !important;
+  border-radius: 2px;
+  padding: 2px 5px !important;
+}
+
+h2.listing-item-description {
+  font-weight: 400;
+}
+
 @media (min-width: 992px) {
   .page-holder {
     margin-left: 15vw;
