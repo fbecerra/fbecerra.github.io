@@ -131,6 +131,13 @@ h2.listing-item-description {
   }
 }
 
+@media (max-width: 768px) {
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .img-logo {
   display: block;
   position: relative;
