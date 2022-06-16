@@ -83,7 +83,12 @@ h2.listing-item-description {
 @media (min-width: 992px) {
   .page-holder {
     margin: 0 auto;
-    max-width: 85vw;
+    max-width: 80vw;
+  }
+
+  .clients {
+    margin: 0 auto;
+    max-width: 80vw;
   }
 
   .sidebar-logo {
