@@ -98,10 +98,6 @@ h2.listing-item-description {
     max-width: 80vw;
   }
 
-  .sidebar-logo {
-    display: block;
-  }
-
   .sidebar-header .navbar-toggler {
     display: none;
   }
