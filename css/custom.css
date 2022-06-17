@@ -81,6 +81,10 @@ h2.listing-item-description {
   font-weight: 400;
 }
 
+.listing-item {
+  padding-left: 0;
+}
+
 .listing-item .listing-tags {
     -webkit-transform: none;
     transform: none;
