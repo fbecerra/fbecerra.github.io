@@ -43,9 +43,10 @@ const projects = [
         ],
         "title": "Beyond Education Outcomes",
         "description": "How equitably distributed are educational resources?",
-        "details": "",
-        "repo": "",
-        "link": "",
+        "details_title": "Beyond Education Outcomes",
+        "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
+        "repo": "https://github.com/UrbanInstitute/education-equity-tool",
+        "link": "https://apps.urban.org/features/education-equity-tool/",
         "img_dir": "img/overview.png"
     },
     {
@@ -59,10 +60,10 @@ const projects = [
         ],
         "title": "Give people paid holidays",
         "description": "What is more efficient at keeping people at home?",
-        "details_title": "",
-        "details": "",
-        "repo": "",
-        "link": "",
+        "details_title": "Give people paid holidays",
+        "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
+        "repo": "https://github.com/fbecerra/covid-mobility",
+        "link": "https://www.fernandobecerra.com/covid-mobility/",
         "img_dir": "img/overview.png"
     },
     {
@@ -76,11 +77,11 @@ const projects = [
         ],
         "title": "The COVID-19 toll in Chile",
         "description": "Visualizing Chile's COVID-19 cases and deaths",
-        "details_title": "",
-        "details": "",
-        "repo": "",
-        "link": "",
-        "img_dir": "img/overview.png"
+        "details_title": "Visualizing Chile's COVID-19 cases",
+        "details": "As COVID-19 cases began to steeply increase, graphs became an important way of communicating the impact that the pandemic was having globally. Media outlets, non-profits, government agencies, and other institutions started collecting the number of cases and deaths  in different regions of the world. Many interactive visualizations became very popular overnight as a way to keep track of all that data without it becoming too overwhelming. That motivated me to create one of such visualizations for COVID-19 statistics in Chile, which would focus on making the data at the region and commune levels available for everyone to explore.",
+        "repo": "https://github.com/fbecerra/covid19chile",
+        "link": "https://www.fernandobecerra.com/covid19chile/",
+        "img_dir": "img/overview.jpg"
     },
     {
         "dir": "projects/single-cell-analysis-sequencing/",
@@ -159,11 +160,11 @@ const projects = [
         ],
         "title": "Formation of the first black holes",
         "description": "Simulating the creation of early black holes in the Universe",
-        "details_title": "",
-        "details": "",
-        "repo": "",
-        "link": "",
-        "img_dir": "img/overview.png"
+        "details_title": "Formation of the first supermassive black holes in the Universe",
+        "details": "Black holes have a reputation of being mysterious objects where time and space lose their meaning, and as such they have always attracted our curiosity. So far, astronomers have a pretty good idea of how present-day black holes formed, but the picture is not that clear for the <i>first</i> black holes - those formed in the early days of the Universe. These objects are particularly hard to study since we can't observe them with our current telescopes. In order to study their formation, I ran numerical simulations of the conditions in the early Universe and followed their evolution until they became massive enough to be considered a black hole.",
+        "repo": "https://github.com/fbecerra/pacha",
+        "link": "https://fernandobecerra.com/astro",
+        "img_dir": ""
     },
     {
         "dir": "projects/la-county-covid19-watch/",
