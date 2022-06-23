@@ -170,3 +170,30 @@ h2.listing-item-description {
   transform: translateX(-50%);
   padding: 15px;
 }
+
+.details {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+  overflow: scroll;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.project-button {
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
