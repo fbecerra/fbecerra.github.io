@@ -152,6 +152,49 @@ const projects = [
     }
 ];
 
+const logos = [
+    {
+        "src": "projects/propublica/img/logo.png",
+        "alt": "ProPublica logo"
+    },
+    {
+        "src": "projects/beyond-education-outcomes/img/logo.png",
+        "alt": "Urban Institute logo"
+    },
+    {
+        "src": "projects/planet/img/logo.png",
+        "alt": "Planet Labs logo"
+    },
+    {
+        "src": "projects/hattori-plots/img/logo.png",
+        "alt": "Pontifical Catholic University of Chile logo"
+    },
+    {
+        "src": "projects/emteq/img/logo.png",
+        "alt": "Emteq Labs logo"
+    },
+    {
+        "src": "projects/gsa/img/logo.png",
+        "alt": "Golden Set Analytics logo"
+    },
+    {
+        "src": "projects/la-county-covid19-watch/img/logo.png",
+        "alt": "LA County Department of Public Health logo"
+    },
+    {
+        "src": "projects/atomics/img/logo.png",
+        "alt": "Copenhagen Atomics logo"
+    },
+    {
+        "src": "projects/paper-citations-authors-collaborations/img/logo.png",
+        "alt": "Research Rabbit App logo"
+    },
+    {
+        "src": "projects/single-cell-analysis-sequencing/img/logo.png",
+        "alt": "Needle Genomics logo"
+    }
+]
+
 const wrapper = d3.select("#project-gallery");
 
 const itemCol = wrapper.selectAll(".grid-item")
@@ -211,3 +254,19 @@ divTitle.append("a")
 divTitle.append("h2")
     .attr("class", "text-small mb-0 listing-item-description")
     .html(d => d.description);
+
+const logosDiv = d3.select("#client-logos");
+
+const logoItem = logosDiv.selectAll(".grid-item")
+    .data(logos)
+    .join("div")
+        .attr("class", "col-lg-3 col-md-3 grid-item mb-4");
+
+logoItem.append("div")
+    .attr("class", "listing-item")
+    .append("div")
+    .attr("class", "position-relative")
+    .append("img")
+        .attr("class", "img-fluid img-logo")
+        .attr("src", d => d.src)
+        .attr("alt", d => d.alt);
