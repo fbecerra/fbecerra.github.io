@@ -26,10 +26,10 @@ const projects = [
         ],
         "title": "Leaky Pipeline of Advanced Placement Testing",
         "description": "The gap between AP class enrollment and AP test taking",
-        "details_title": "",
-        "details": "",
+        "details_title": "The Leaky Pipeline of Advanced Placement Testing",
+        "details": "Through funding for students, Florida ranks first in the nation for Advanced Plamente (AP) test participariont rate. But even as Florida has worked to ensure equal acces to advanced courses and the benefits that come with them, racial disparities remain. In this interactive map we show the gap betwen AP class enrollment and AP test taking for each racial or ethnic group and each district in Florida.",
         "repo": "",
-        "link": "",
+        "link": "https://www.urban.org/policy-centers/center-education-data-and-policy/projects/leaky-pipeline-advanced-placement-testing",
         "img_dir": "img/overview.png"
     },
     {
@@ -93,8 +93,8 @@ const projects = [
         ],
         "title": "Single cell analysis and sequencing",
         "description": "Navigating through the Gen Expression Omnibus dataset",
-        "details_title": "",
-        "details": "",
+        "details_title": "Exploring single cell analysis and sequencing",
+        "details": "Visualizing scientific data is always a challenge because of the many variables and dimensions involved, but making it available in an easy-to-explore way should be a priority for scientists. One especially difficult dataset to represent graphically is gene expression data due to the huge quantity of information available for each cell. In this project, I developed a gene expression web application that visualizes single cell RNA-seq data using pre-calculated t-SNE coordinates for each cell. This tool allows experts to navigate through the overwhelming Gen Expression Omnibus dataset and focus on the most relevant genes and their properties.",
         "repo": "",
         "link": "",
         "img_dir": "img/overview.png"
@@ -109,11 +109,11 @@ const projects = [
         ],
         "title": "Paper citations, authors collaborations",
         "description": "Visualizing collaborative networks in academia",
-        "details_title": "",
-        "details": "",
+        "details_title": "Collaboration networks in Academia",
+        "details": "For researchers in academia, keeping track of the overwhelming number of publications, citations, and references has always been an issue. Tools like Mendeley or Papers have gained popularity as a way of keeping everything as ordered as possible, focusing on building an easy-to-access reference library. Research Rabbit goes a step further and helps you discover relevant articles for your research providing a map of the relation between papers and authors. To show and explore how these articles are connected, I built a interactive network visualization that allows the user to select a group of articles and discover papers that are cited or referenced by them.",
         "repo": "",
-        "link": "",
-        "img_dir": "img/overview.png"
+        "link": "https://researchrabbitapp.com/",
+        "img_dir": "img/overview.jpg"
     },
     {
         "dir": "projects/hattori-plots/",
@@ -126,11 +126,11 @@ const projects = [
         ],
         "title": "Hattori plots",
         "description": "Studying fatty liver desease in Chilean populations",
-        "details_title": "",
-        "details": "",
+        "details_title": "Studying Non-Alcoholic Fatty Liver Desease in Chilean populations",
+        "details": "Obesity is one of the most common deseases in the Chilean young population. Because of this, it is crucial to study its risks and relationships to fat content in other parts of the body such as liver and pancreas. For that, we analyzed data from a cohort of people that were followed annually since their birth until their 18th birthday. We studied the evolution of their fat mass, fat-free mass, height, and BMI, and related those quantities to the risk of presenting Non-Alcoholic Fatty Liver Desease and Non-Alcoholic Fatty Pancreas Desease.",
         "repo": "",
         "link": "",
-        "img_dir": "img/overview.png"
+        "img_dir": "img/thumbnail.png"
     },
     {
         "dir": "projects/joy-of-parsing/",
@@ -143,11 +143,11 @@ const projects = [
         ],
         "title": "The joy of parsing",
         "description": "Visualizing Bob Ross's paintings",
-        "details_title": "",
-        "details": "",
+        "details_title": "The Joy of Parsing",
+        "details": "The first time I watched and episode of <i>The Joy of Painting</i> I was mesmerized by the paintings, the phrases, and Bob Ross. A few months after, we were developing tools to explore and understand large archives at Fathom. While my colleagues were analyzing serious document sets, I decided to apply those techniques to the transcripts of each episode of <i>The Joy of Painting</i>. What started as a simple analysis of the frequency of iconic phrases such as <i>Let's draw some happy little trees</i> and <i>Just beat the devil out of it</i> quickly evolved into an interactive visualization to explore his paintings.",
         "repo": "",
-        "link": "",
-        "img_dir": "img/overview.png"
+        "link": "https://fathom.info/bobross",
+        "img_dir": "img/overview.jpg"
     },
     {
         "dir": "projects/formation-first-black-holes/",
@@ -176,10 +176,10 @@ const projects = [
         ],
         "title": "LA County's COVID-19 Watch",
         "description": "Tracking LA Country's COVID-19 statistics",
-        "details_title": "",
-        "details": "",
+        "details_title": "Tracking LA County's COVID-19 statistics",
+        "details": "As the COVID-19 pandemic developed, more and more data became available to inform researchers, the media, and the general population. In order to inform their citizens of the current state of the pandemic, the County of Los Angeles Health Department published in their website a series of statistics regarding testing, symptoms, and deaths. Some of these graphics were generated as an image and needed to be updated manually every day, wasting time and resources. In order to optimize this process, I implemented a d3 plot that self-updates once the dataset is updated and adds interactivity to give more details to the user.",
         "repo": "",
-        "link": "",
+        "link": "http://publichealth.lacounty.gov/acd/ncorona2019/covidwatch/",
         "img_dir": "img/overview.png"
     },
     {
@@ -209,10 +209,10 @@ const projects = [
         ],
         "title": "Changing the constitution",
         "description": "Exploring bills introduced to reform the Chilean Constitution",
-        "details_title": "",
-        "details": "",
-        "repo": "",
-        "link": "",
+        "details_title": "Reforming Chile's Constitution",
+        "details": "In 2020 Chile held a national plebiscite to decide if its citizens wanted to have a new Constitution. The previous one had been written during Pinochet's dictatorship in 1980 and had been modified <a href='https://pbs.twimg.com/media/EkTB4uXWkAIIvuj.jpg' target='_blank'>more than 250 times</a> since its inception.  Right-wing parties used these modifications to campaing against a new constitution under the motto <i>Reject to reform</i> (reject the new constitution, to reform the previous one) and that rethoric was soon picked up by media outlets. But these facts were lacking context: how many times Chilean representatives have tried to modify the constitution? Is 257 times too many or too few? To answer these questions, I analyzed the bills introduce to Chile's Chamber of Deputies to modify the Constitution since 1980 and track them until their approval or rejection.",
+        "repo": "https://github.com/fbecerra/reformas",
+        "link": "https://www.fernandobecerra.com/reformas/",
         "img_dir": "img/overview.png"
     }
 ];
