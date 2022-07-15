@@ -1,5 +1,22 @@
 const projects = [
     {
+        "dir": "projects/beyond-education-outcomes/",
+        "img_format": "jpg",
+        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
+        "tags": [
+            "d3.js",
+            "interactive",
+            "dataviz"
+        ],
+        "title": "Beyond Education Outcomes",
+        "description": "How equitably distributed are educational resources?",
+        "details_title": "Beyond Education Outcomes",
+        "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
+        "repo": "https://github.com/UrbanInstitute/education-equity-tool",
+        "link": "https://apps.urban.org/features/education-equity-tool/",
+        "img_dir": "img/overview.png"
+    },
+    {
         "dir": "projects/giving-dashboard/",
         "img_format": "jpg",
         "img_alt": "Dashboard that shows trends for donations in the United States.",
@@ -33,25 +50,8 @@ const projects = [
         "img_dir": "img/overview.png"
     },
     {
-        "dir": "projects/beyond-education-outcomes/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dataviz"
-        ],
-        "title": "Beyond Education Outcomes",
-        "description": "How equitably distributed are educational resources?",
-        "details_title": "Beyond Education Outcomes",
-        "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
-        "repo": "https://github.com/UrbanInstitute/education-equity-tool",
-        "link": "https://apps.urban.org/features/education-equity-tool/",
-        "img_dir": "img/overview.png"
-    },
-    {
         "dir": "projects/give-people-paid-holidays/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Interactive essay showing that holidays have been more efficient than lockdowns in keeping people at home.",
         "tags": [
             "d3.js",
@@ -82,6 +82,23 @@ const projects = [
         "repo": "https://github.com/fbecerra/covid19chile",
         "link": "https://www.fernandobecerra.com/covid19chile/",
         "img_dir": "img/overview.jpg"
+    },
+    {
+        "dir": "projects/degrees-of-value/",
+        "img_format": "jpg",
+        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
+        "tags": [
+            "d3.js",
+            "interactive",
+            "dataviz"
+        ],
+        "title": "Degrees of Value",
+        "description": "How Policymakers Can Design a High-Quality College Accountability System",
+        "details_title": "Degrees of Value",
+        "details": "A high-quality accountability system for colleges require more than just student loan default rates to hold institutions accountable for the quality of their programs. Here, we explore how additional metrics such as how many students complete their degrees and certificates, how much students earn after leaving school, and how much students still owe five years into loan repayment affect how these institutions perform.",
+        "repo": "https://github.com/UrbanInstitute/threshold-accountability-metrics",
+        "link": "https://www.urban.org/features/degrees-value",
+        "img_dir": "img/overview.png"
     },
     {
         "dir": "projects/single-cell-analysis-sequencing/",
