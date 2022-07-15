@@ -86,7 +86,7 @@ const projects = [
     {
         "dir": "projects/degrees-of-value/",
         "img_format": "jpg",
-        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
+        "img_alt": "Interactive visualization to explore how different metrics affect the performance of educational institutions in a high-quality accountability system.",
         "tags": [
             "d3.js",
             "interactive",
@@ -231,7 +231,23 @@ const projects = [
         "repo": "https://github.com/fbecerra/reformas",
         "link": "https://www.fernandobecerra.com/reformas/",
         "img_dir": "img/overview.png"
-    }
+    },
+    {
+        "dir": "projects/who-should-pay/",
+        "img_format": "jpg",
+        "img_alt": "Data-driven visualization of how policymakers can change income-driven repayment plan designs to creat more affordable payments.",
+        "tags": [
+            "d3.js",
+            "dataviz"
+        ],
+        "title": "Who should pay?",
+        "description": "Designing a more equitable income-driven repayment plan",
+        "details_title": "Who should pay?",
+        "details": "In a nation where 43 million people have student loan debt, an income-driven repayment (IDR) plan can offer a more affordable option for paying off loan balances. This visualization illustrates how policymakers can change IDR plan designs to create more affordable payments, more equitable repayment timelines, and more manageable debt balances, all while ensuring the system’s continued viability.",
+        "repo": "",
+        "link": "https://www.urban.org/features/degrees-value",
+        "img_dir": "img/overview.png"
+    },
 ];
 
 const logos = [
