@@ -1,7 +1,7 @@
 const projects = [
     {
         "dir": "projects/giving-dashboard/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Dashboard that shows trends for donations in the United States.",
         "tags": [
             "d3.js",
@@ -68,7 +68,7 @@ const projects = [
     },
     {
         "dir": "projects/covid19-toll-chile/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Interactive visualizaiton to explore COVID-19 cases and deaths in Chile.",
         "tags": [
             "d3.js",
@@ -101,7 +101,7 @@ const projects = [
     },
     {
         "dir": "projects/paper-citations-authors-collaborations/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Interactive network visualization showing citations between papers and collaborations between authors.",
         "tags": [
             "d3.js",
@@ -117,7 +117,7 @@ const projects = [
     },
     {
         "dir": "projects/hattori-plots/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Static plots showing relationship between fat and fat-free mass for a cohort of Chilean kids.",
         "tags": [
             "python",
@@ -151,7 +151,7 @@ const projects = [
     },
     {
         "dir": "projects/formation-first-black-holes/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Scientific research studying the formation of supermassive black hole seeds in the early Universe.",
         "tags": [
             "python",
@@ -184,7 +184,7 @@ const projects = [
     },
     {
         "dir": "projects/astrollytelling/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Project to teach astronomy concepts through interactive visualizations and essays.",
         "tags": [
             "d3.js",
@@ -201,7 +201,7 @@ const projects = [
     },
     {
         "dir": "projects/plebiscite-new-constitution/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Interactive visualization showing the timeline of the bills introduced to change the Chilean constitution.",
         "tags": [
             "d3.js",
