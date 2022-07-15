@@ -34,7 +34,7 @@ const projects = [
     },
     {
         "dir": "projects/beyond-education-outcomes/",
-        "img_format": "png",
+        "img_format": "jpg",
         "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
         "tags": [
             "d3.js",
