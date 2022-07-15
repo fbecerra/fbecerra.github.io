@@ -93,7 +93,7 @@ const projects = [
             "dataviz"
         ],
         "title": "Degrees of Value",
-        "description": "How Policymakers Can Design a High-Quality College Accountability System",
+        "description": "How policymakers can design a high-quality college accountability system",
         "details_title": "Degrees of Value",
         "details": "A high-quality accountability system for colleges require more than just student loan default rates to hold institutions accountable for the quality of their programs. Here, we explore how additional metrics such as how many students complete their degrees and certificates, how much students earn after leaving school, and how much students still owe five years into loan repayment affect how these institutions perform.",
         "repo": "https://github.com/UrbanInstitute/threshold-accountability-metrics",
