@@ -206,3 +206,8 @@ a {
 .list-inline {
   line-height: 0.5rem;
 }
+
+.btn-fb {
+  color: #17a2b8;
+  background-color: #fff;
+}
