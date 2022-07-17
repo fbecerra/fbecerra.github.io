@@ -356,10 +356,10 @@ linkP.append("svg")
     .attr("xlink:href", "#arrow-right-1");
 
 const divTags = item.append("div")
-    .attr("class", "position-relative pt-2");
+    .attr("class", "position-relative border-left mt-2 mb-4");
 
 const listTags = divTags.append("ul")
-    .attr("class", "list-inline listing-tags m-0")
+    .attr("class", "list-inline listing-tags m-0 pb-1")
 
 listTags.selectAll("li")
     .data(d => d.tags)
@@ -367,17 +367,17 @@ listTags.selectAll("li")
         .attr("class", "list-inline-item reset-anchor font-weight-normal text-small")
         .html(d => d);
 
-const divTitle = item.append("div")
-    .attr("class", "pt-0 pb-2");
+// const divTitle = item.append("div")
+//     .attr("class", "pt-0 pb-2");
 
-divTitle.append("a")
+divTags.append("a")
     .attr("class", "reset-anchor")
     .append("h1")
     .attr("class", "h5 listing-item-heading")
     .html(d => d.title)
     .on("click", showDetails);
 
-divTitle.append("h2")
+divTags.append("h2")
     .attr("class", "text-small mb-0 listing-item-description")
     .html(d => d.description);
 
