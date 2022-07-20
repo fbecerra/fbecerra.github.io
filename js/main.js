@@ -1,5 +1,22 @@
 const projects = [
     {
+        "dir": "projects/inflation-per-age/",
+        "img_format": "jpg",
+        "img_alt": "Interactive visualization of a Voronoi treemap to explore how inflation affects people of different ages.",
+        "tags": [
+            "d3.js",
+            "interactive",
+            "dataviz"
+        ],
+        "title": "Inflation for Americans at each age",
+        "description": "How does inflation affect Americans at different ages?",
+        "details_title": "Inflation for Americans at each age",
+        "details": "According to the Bureau of Labor Statistics, consumer prices rose 9.1% from June 2021 to June 2022, the highest rate since 1981. But households in different age groups spend money differently, so inflation rates vary by age, too. This interactive visualization shows average spending for households at each age, in more than 200 categories that make up the inflation index.",
+        "repo": "",
+        "link": "https://usafacts.org/projects/cpi/inflation-parts",
+        "img_dir": "img/overview.png"
+    },
+    {
         "dir": "projects/beyond-education-outcomes/",
         "img_format": "jpg",
         "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
@@ -251,6 +268,10 @@ const projects = [
 ];
 
 const logos = [
+    {
+        "src": "projects/inflation-per-age/img/logo.jpg",
+        "alt": "USAFacts logo"
+    },
     {
         "src": "projects/propublica/img/logo.png",
         "alt": "ProPublica logo"
