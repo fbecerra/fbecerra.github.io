@@ -273,12 +273,12 @@ const logos = [
         "alt": "USAFacts logo"
     },
     {
-        "src": "projects/propublica/img/logo.png",
-        "alt": "ProPublica logo"
-    },
-    {
         "src": "projects/beyond-education-outcomes/img/logo.png",
         "alt": "Urban Institute logo"
+    },
+    {
+        "src": "projects/propublica/img/logo.png",
+        "alt": "ProPublica logo"
     },
     {
         "src": "projects/planet/img/logo.png",
