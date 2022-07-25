@@ -11,6 +11,9 @@ const projects = [
         "title": "Inflation for Americans at each age",
         "description": "How does inflation affect Americans at different ages?",
         "details_title": "Inflation for Americans at each age",
+        "details_client": "USA Facts",
+        "details_date": "July 2022",
+        "details_team": "Amanda Cox, Amber Thomas, and Ryan Shackleton",
         "details": "According to the Bureau of Labor Statistics, consumer prices rose 9.1% from June 2021 to June 2022, the highest rate since 1981. But households in different age groups spend money differently, so inflation rates vary by age, too. This interactive visualization shows average spending for households at each age, in more than 200 categories that make up the inflation index.",
         "repo": "",
         "link": "https://usafacts.org/projects/cpi/inflation-parts",
@@ -28,6 +31,9 @@ const projects = [
         "title": "Beyond education outcomes",
         "description": "How equitably distributed are educational resources?",
         "details_title": "Beyond education outcomes",
+        "details_client": "The Urban Institute",
+        "details_date": "January 2022",
+        "details_team": "Allison Feldman and Wes Jenkins",
         "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
         "repo": "https://github.com/UrbanInstitute/education-equity-tool",
         "link": "https://apps.urban.org/features/education-equity-tool/",
@@ -320,6 +326,12 @@ const showDetails = function(event, d) {
 
     d3.select("#project-description")
         .html(d.details);
+
+    d3.select("#project-client")
+        .html(d.details_client + ", " + d.details_date);
+
+    d3.select("#project-team")
+        .html("With " + d.details_team);
 
     d3.select("#project-repo")
         .attr("href", d.repo);
