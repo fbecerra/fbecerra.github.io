@@ -33,7 +33,7 @@ const projects = [
         "details_title": "Beyond education outcomes",
         "details_client": "The Urban Institute",
         "details_date": "January 2022",
-        "details_team": "Allison Feldman and Wes Jenkins",
+        "details_team": "Allison Feldman and Wesley Jenkins",
         "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
         "repo": "https://github.com/UrbanInstitute/education-equity-tool",
         "link": "https://apps.urban.org/features/education-equity-tool/",
@@ -50,6 +50,9 @@ const projects = [
         "title": "Giving dashboard",
         "description": "A snapshot of the many ways Americans give",
         "details_title": "Giving dashboard",
+        "details_client": "The Urban Institute",
+        "details_date": "April 2022",
+        "details_team": "JoElla Carman and Wesley Jenkins",
         "details": "Colleting information from different sources of data, this dashboard gives an overview of the different ways Americans give, including donations to tax-exempt nonprofits, crowdfunding, impact investing, donor-advised funds, and digital giving, among others. The figures in this dashboard represent indicators that illuminate the dominant trends shaping the contemporary giving landscape in the United States.",
         "repo": "https://github.com/UrbanInstitute/giving-dashboard",
         "link": "https://apps.urban.org/features/giving-dashboard/",
@@ -67,6 +70,9 @@ const projects = [
         "title": "The leaky pipeline of advanced placement testing",
         "description": "The gap between AP class enrollment and AP test taking",
         "details_title": "The leaky pipeline of advanced placement testing",
+        "details_client": "The Urban Institute",
+        "details_date": "February 2022",
+        "details_team": "Christina Baird",
         "details": "Through funding for students, Florida ranks first in the nation for Advanced Plamente (AP) test participariont rate. But even as Florida has worked to ensure equal acces to advanced courses and the benefits that come with them, racial disparities remain. In this interactive map we show the gap betwen AP class enrollment and AP test taking for each racial or ethnic group and each district in Florida.",
         "repo": "",
         "link": "https://www.urban.org/policy-centers/center-education-data-and-policy/projects/leaky-pipeline-advanced-placement-testing",
@@ -84,6 +90,9 @@ const projects = [
         "title": "Give people paid holidays",
         "description": "What is more efficient at keeping people at home?",
         "details_title": "Give people paid holidays",
+        "details_client": "Personal project",
+        "details_date": "May 2021",
+        "details_team": "",
         "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
         "repo": "https://github.com/fbecerra/covid-mobility",
         "link": "https://www.fernandobecerra.com/covid-mobility/",
@@ -101,6 +110,9 @@ const projects = [
         "title": "The COVID-19 toll in Chile",
         "description": "Visualizing Chile's COVID-19 cases and deaths",
         "details_title": "Visualizing Chile's COVID-19 cases",
+        "details_client": "Personal project",
+        "details_date": "June 2020",
+        "details_team": "",
         "details": "As COVID-19 cases began to steeply increase, graphs became an important way of communicating the impact that the pandemic was having globally. Media outlets, non-profits, government agencies, and other institutions started collecting the number of cases and deaths  in different regions of the world. Many interactive visualizations became very popular overnight as a way to keep track of all that data without it becoming too overwhelming. That motivated me to create one of such visualizations for COVID-19 statistics in Chile, which would focus on making the data at the region and commune levels available for everyone to explore.",
         "repo": "https://github.com/fbecerra/covid19chile",
         "link": "https://www.fernandobecerra.com/covid19chile/",
@@ -118,6 +130,9 @@ const projects = [
         "title": "Degrees of value",
         "description": "How policymakers can design a high-quality college accountability system",
         "details_title": "Degrees of value",
+        "details_client": "The Urban Institute",
+        "details_date": "June 2022",
+        "details_team": "With Christina Baird and Wesley Jenkins",
         "details": "A high-quality accountability system for colleges require more than just student loan default rates to hold institutions accountable for the quality of their programs. Here, we explore how additional metrics such as how many students complete their degrees and certificates, how much students earn after leaving school, and how much students still owe five years into loan repayment affect how these institutions perform.",
         "repo": "https://github.com/UrbanInstitute/threshold-accountability-metrics",
         "link": "https://www.urban.org/features/degrees-value",
@@ -331,7 +346,7 @@ const showDetails = function(event, d) {
         .html(d.details_client + ", " + d.details_date);
 
     d3.select("#project-team")
-        .html("With " + d.details_team);
+        .html(d.details_team !== "" ? "With " + d.details_team : "");
 
     d3.select("#project-repo")
         .attr("href", d.repo);
