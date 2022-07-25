@@ -100,13 +100,23 @@ h2.listing-item-description {
     position: relative;
   }
 
-@media (min-width: 992px) {
-  .page-holder {
+@media (min-width: 768px) {
+  .page-holder, .clients {
     margin: 0 auto;
-    max-width: 80vw;
+    max-width: 90vw;
   }
 
-  .clients {
+  .sidebar-header .navbar-toggler {
+    display: none;
+  }
+
+  .main-div {
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-holder, .clients {
     margin: 0 auto;
     max-width: 80vw;
   }
