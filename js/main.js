@@ -310,7 +310,7 @@ const projects = [
         "details_team": "Christina Baird and Wesley Jenkins",
         "details": "In a nation where 43 million people have student loan debt, an income-driven repayment (IDR) plan can offer a more affordable option for paying off loan balances. This visualization illustrates how policymakers can change IDR plan designs to create more affordable payments, more equitable repayment timelines, and more manageable debt balances, all while ensuring the system’s continued viability.",
         "repo": "",
-        "link": "https://www.urban.org/features/degrees-value",
+        "link": "https://www.urban.org/features/who-should-pay",
         "img_dir": "img/overview.png"
     },
 ];
