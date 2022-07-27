@@ -235,12 +235,25 @@ h2.listing-item-description {
   font-style: italic;
 }
 
-#close {
+#close, #left, #right {
   position: fixed;
-  top: 15px;
-  right: 15px;
   cursor: pointer;
   z-index: 3;
+}
+
+#close {
+  top: 15px;
+  right: 15px;
+}
+
+#left {
+  top: 50%;
+  left: 15px;
+}
+
+#right {
+  top: 50%;
+  right: 15px;
 }
 
 .project-button {

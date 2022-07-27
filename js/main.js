@@ -411,7 +411,19 @@ const prevIdx = function() {
 }
 
 d3.select("#close")
-    .on("click", hideDetails)
+    .on("click", hideDetails);
+
+d3.select("#right")
+    .on("click", () => {
+        nextIdx();
+        showDetails();
+    });
+
+d3.select("#left")
+    .on("click", () => {
+        prevIdx();
+        showDetails();
+    });
 
 const wrapper = d3.select("#project-gallery");
 
