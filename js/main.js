@@ -362,35 +362,52 @@ const logos = [
     }
 ];
 
-const showDetails = function(event, d) {
+let state = {
+    projectIdx: null,
+    showingDetails: false
+}
+
+const showDetails = function() {
+    let project = projects[state.projectIdx];
+    
     d3.select("#project-title")
-        .html(d.details_title);
+        .html(project.details_title);
 
     d3.select("#project-description")
-        .html(d.details);
+        .html(project.details);
 
     d3.select("#project-client")
-        .html(d.details_client + ", " + d.details_date);
+        .html(project.details_client + ", " + project.details_date);
 
     d3.select("#project-team")
-        .html(d.details_team !== "" ? "With " + d.details_team : "");
+        .html(project.details_team !== "" ? "With " + project.details_team : "");
 
     d3.select("#project-repo")
-        .attr("href", d.repo);
+        .attr("href", project.repo);
     
     d3.select("#project-link")
-        .attr("href", d.link);
+        .attr("href", project.link);
 
     d3.select("#project-image")
-        .attr("src", d.dir + d.img_dir);
+        .attr("src", project.dir + project.img_dir);
 
     d3.select(".details")
         .style("display", "block");
 };
 
 const hideDetails = function() {
+    state.showingDetails = false;
+
     d3.select(".details")
         .style("display", "none");
+}
+
+const nextIdx = function() {
+    state.projectIdx = state.projectIdx + 1 > projects.length - 1 ? 0 : state.projectIdx + 1;
+}
+
+const prevIdx = function() {
+    state.projectIdx = state.projectIdx - 1 < 0 ? projects.length - 1 : state.projectIdx - 1;
 }
 
 d3.select("#close")
@@ -413,7 +430,11 @@ const divImage = item.append("div")
 
 const linkImage = divImage.append("a")
     .attr("class", "reset-anchor d-block listing-img-holder")
-    .on("click", showDetails);
+    .on("click", (_, d) => {
+        state.projectIdx = projects.indexOf(d);
+        state.showingDetails = true;
+        showDetails();
+    });
 
 linkImage.append("img")
     .attr("class", "img-fluid")
@@ -450,7 +471,11 @@ divTags.append("a")
     .append("h1")
     .attr("class", "h5 listing-item-heading")
     .html(d => d.title)
-    .on("click", showDetails);
+    .on("click", (_, d) => {
+        state.projectIdx = projects.indexOf(d);
+        state.showingDetails = true;
+        showDetails();
+    });
 
 divTags.append("h2")
     .attr("class", "text-small mb-0 listing-item-description")
@@ -471,3 +496,18 @@ logoItem.append("div")
         .attr("class", "img-fluid img-logo")
         .attr("src", d => d.src)
         .attr("alt", d => d.alt);
+
+document.onkeydown = function(e) {
+    if (state.showingDetails) {
+        if (e.key == "Escape") {
+            hideDetails();
+        } else if (e.key == 'ArrowRight') {
+            nextIdx();
+            showDetails();
+        } else if (e.key == 'ArrowLeft') {
+            prevIdx();
+            showDetails();
+        }
+    }
+};
+          
