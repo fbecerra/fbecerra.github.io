@@ -341,10 +341,6 @@ const logos = [
         "alt": "Emteq Labs logo"
     },
     {
-        "src": "projects/gsa/img/logo.png",
-        "alt": "Golden Set Analytics logo"
-    },
-    {
         "src": "projects/la-county-covid19-watch/img/logo.png",
         "alt": "LA County Department of Public Health logo"
     },
