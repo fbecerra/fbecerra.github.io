@@ -353,6 +353,10 @@ const logos = [
         "alt": "Research Rabbit App logo"
     },
     {
+        "src": "projects/zero1/img/logo.png",
+        "alt": "Zero-1 logo"
+    },
+    {
         "src": "projects/single-cell-analysis-sequencing/img/logo.png",
         "alt": "Needle Genomics logo"
     }
