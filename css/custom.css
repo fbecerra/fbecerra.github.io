@@ -176,9 +176,39 @@ h2.listing-item-description {
 }
 
 @media (max-width: 768px) {
+  h3 .sidebar-logo {
+    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+  }
+
+  h5 .sidebar-logo {
+    letter-spacing: 0.05em;
+    font-size: 1.25rem;
+  }
+
   .container-fluid {
     margin: 0;
     padding: 0;
+  }
+
+  .main-div {
+    padding: 0 0.5rem !important;
+  }
+
+  #bio-desktop {
+    display: none;
+  }
+
+  .details {
+    padding: 0 1.75rem !important;
+  }
+
+  #project-title {
+    font-size: 2rem !important;
+  }
+
+  #project-team {
+    font-size: 1rem !important;
   }
 }
 
@@ -239,6 +269,7 @@ h2.listing-item-description {
   position: fixed;
   cursor: pointer;
   z-index: 3;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #close {
@@ -248,12 +279,12 @@ h2.listing-item-description {
 
 #left {
   top: 50%;
-  left: 15px;
+  left: 5px;
 }
 
 #right {
   top: 50%;
-  right: 15px;
+  right: 5px;
 }
 
 .project-button {
