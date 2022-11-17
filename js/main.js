@@ -353,6 +353,10 @@ const logos = [
         "alt": "Planet Labs logo"
     },
     {
+        "src": "projects/epic-data-explorer/img/logo.png",
+        "alt": "Epic Institute logo"
+    },
+    {
         "src": "projects/hattori-plots/img/logo.png",
         "alt": "Pontifical Catholic University of Chile logo"
     },
