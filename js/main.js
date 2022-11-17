@@ -20,6 +20,26 @@ const projects = [
         "img_dir": "img/overview.png"
     },
     {
+        "dir": "projects/epic-data-explorer/",
+        "img_format": "png",
+        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
+        "tags": [
+            "d3.js",
+            "interactive",
+            "dashboard"
+        ],
+        "title": "Epic Data Explorer",
+        "description": "A web-based tool to navigate through the Positive Disruption model output.",
+        "details_title": "Positive Disruption Data Explorer",
+        "details_client": "Epic Institute",
+        "details_date": "November 2022",
+        "details_team": "Nick Adams",
+        "details": "The Positive Disruption model examines low- and no-carbon technologies and practices in the energy, agriculture, and land-use sectors, modeling how adoption of these technologies and practices can be expected to grow over the next 30 years, and the effect they will have on the process of reversing climate change. The Positive Disruption Data Explorer is a web-based tool that allows for easy navigation through model results.",
+        "repo": "https://github.com/Epic-Institute/data-explorer",
+        "link": "https://epic-institute.github.io/data-explorer/",
+        "img_dir": "img/overview.png"
+    },
+    {
         "dir": "projects/beyond-education-outcomes/",
         "img_format": "jpg",
         "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
