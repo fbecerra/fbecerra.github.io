@@ -522,7 +522,7 @@ const logosDiv = d3.select("#client-logos");
 const logoItem = logosDiv.selectAll(".grid-item")
     .data(logos)
     .join("div")
-        .attr("class", "col-6 col-lg-3 col-md-3 grid-item mb-4");
+        .attr("class", "col-6 col-lg-3 col-md-3 grid-item");
 
 logoItem.append("div")
     .attr("class", "listing-item")

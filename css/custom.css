@@ -223,6 +223,19 @@ h2.listing-item-description {
   padding: 15px;
 }
 
+.clients h5 {
+  margin-bottom: 40px;
+}
+
+#client-logos .listing-item {
+  height: 100px;
+}
+
+#client-logos .img-logo {
+  max-height: 100px;
+  transform: translate(-50%, -50%);
+}
+
 .details {
   display: none;
   width: 100vw;
