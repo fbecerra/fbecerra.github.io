@@ -357,6 +357,10 @@ const logos = [
         "alt": "Epic Institute logo"
     },
     {
+        "src": "projects/swayable/img/logo.png",
+        "alt": "Swayable logo"
+    },
+    {
         "src": "projects/hattori-plots/img/logo.png",
         "alt": "Pontifical Catholic University of Chile logo"
     },
