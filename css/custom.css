@@ -5,7 +5,12 @@ body {
 }
 
 p, h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300 !important;
+}
+
+.text-muted {
+  color: #3c3c3c !important;
 }
 
 .sidebar {
@@ -53,7 +58,7 @@ p, h2 {
 
 .sidebar-logo {
   letter-spacing: 0.1em;
-  color: #120e18;
+  color: #1a1a1a;
 }
 
 .sidebar-logo:hover {
@@ -70,7 +75,7 @@ ul.list-inline {
 }
 
 li.list-inline-item {
-  color: #d2d2d2;
+  color: #aaaaaa;
   font-family: 'Lato', sans-serif;
   display: inline-block;
   text-transform: uppercase;
