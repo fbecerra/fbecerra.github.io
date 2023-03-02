@@ -326,3 +326,11 @@ a {
   color: #17a2b8;
   background-color: #fff;
 }
+
+.font-weight-bolder {
+  font-weight: 900 !important;
+}
+
+.font-weight-normal {
+  font-weight: 500 !important;
+}
