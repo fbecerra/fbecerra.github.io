@@ -561,21 +561,21 @@ divTags.append("h2")
     .attr("class", "text-small mb-0 listing-item-description")
     .html(d => d.description);
 
-const logosDiv = d3.select("#client-logos");
+// const logosDiv = d3.select("#client-logos");
 
-const logoItem = logosDiv.selectAll(".grid-item")
-    .data(logos)
-    .join("div")
-        .attr("class", "col-6 col-lg-3 col-md-3 grid-item");
+// const logoItem = logosDiv.selectAll(".grid-item")
+//     .data(logos)
+//     .join("div")
+//         .attr("class", "col-6 col-lg-3 col-md-3 grid-item");
 
-logoItem.append("div")
-    .attr("class", "listing-item")
-    .append("div")
-    .attr("class", "position-relative")
-    .append("img")
-        .attr("class", "img-fluid img-logo")
-        .attr("src", d => d.src)
-        .attr("alt", d => d.alt);
+// logoItem.append("div")
+//     .attr("class", "listing-item")
+//     .append("div")
+//     .attr("class", "position-relative")
+//     .append("img")
+//         .attr("class", "img-fluid img-logo")
+//         .attr("src", d => d.src)
+//         .attr("alt", d => d.alt);
 
 document.onkeydown = function(e) {
     if (state.showingDetails) {
