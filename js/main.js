@@ -98,86 +98,86 @@ const projects = [
     //     "link": "https://www.urban.org/policy-centers/center-education-data-and-policy/projects/leaky-pipeline-advanced-placement-testing",
     //     "img_dir": "img/overview.png"
     // },
-    {
-        "dir": "projects/give-people-paid-holidays/",
-        "img_format": "jpg",
-        "img_alt": "Interactive essay showing that holidays have been more efficient than lockdowns in keeping people at home.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "essay"
-        ],
-        "title": "Give people paid holidays",
-        "description": "What is more efficient at keeping people at home?",
-        "details_title": "Give people paid holidays",
-        "details_client": "Personal project",
-        "details_date": "May 2021",
-        "details_team": "",
-        "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
-        "repo": "https://github.com/fbecerra/covid-mobility",
-        "link": "https://www.fernandobecerra.com/covid-mobility/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/denver-sib/",
-        "img_format": "jpg",
-        "img_alt": "",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "essay"
-        ],
-        "title": "Homelessness",
-        "description": "What is more efficient at keeping people at home?",
-        "details_title": "Give people paid holidays",
-        "details_client": "Personal project",
-        "details_date": "May 2021",
-        "details_team": "",
-        "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
-        "repo": "https://github.com/fbecerra/covid-mobility",
-        "link": "https://www.fernandobecerra.com/covid-mobility/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/propublica/",
-        "img_format": "jpg",
-        "img_alt": "",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "essay"
-        ],
-        "title": "How the army handled two cases of pretrial confinement",
-        "description": "What is more efficient at keeping people at home?",
-        "details_title": "Give people paid holidays",
-        "details_client": "Personal project",
-        "details_date": "May 2021",
-        "details_team": "",
-        "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
-        "repo": "https://github.com/fbecerra/covid-mobility",
-        "link": "https://www.fernandobecerra.com/covid-mobility/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/covid19-toll-chile/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualizaiton to explore COVID-19 cases and deaths in Chile.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dataviz"
-        ],
-        "title": "The COVID-19 toll in Chile",
-        "description": "Visualizing Chile's COVID-19 cases and deaths",
-        "details_title": "Visualizing Chile's COVID-19 cases",
-        "details_client": "Personal project",
-        "details_date": "June 2020",
-        "details_team": "",
-        "details": "As COVID-19 cases began to steeply increase, graphs became an important way of communicating the impact that the pandemic was having globally. Media outlets, non-profits, government agencies, and other institutions started collecting the number of cases and deaths  in different regions of the world. Many interactive visualizations became very popular overnight as a way to keep track of all that data without it becoming too overwhelming. That motivated me to create one of such visualizations for COVID-19 statistics in Chile, which would focus on making the data at the region and commune levels available for everyone to explore.",
-        "repo": "https://github.com/fbecerra/covid19chile",
-        "link": "https://www.fernandobecerra.com/covid19chile/",
-        "img_dir": "img/overview.jpg"
-    },
+    // {
+    //     "dir": "projects/give-people-paid-holidays/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive essay showing that holidays have been more efficient than lockdowns in keeping people at home.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "essay"
+    //     ],
+    //     "title": "Give people paid holidays",
+    //     "description": "What is more efficient at keeping people at home?",
+    //     "details_title": "Give people paid holidays",
+    //     "details_client": "Personal project",
+    //     "details_date": "May 2021",
+    //     "details_team": "",
+    //     "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
+    //     "repo": "https://github.com/fbecerra/covid-mobility",
+    //     "link": "https://www.fernandobecerra.com/covid-mobility/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/denver-sib/",
+    //     "img_format": "jpg",
+    //     "img_alt": "",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "essay"
+    //     ],
+    //     "title": "Homelessness",
+    //     "description": "What is more efficient at keeping people at home?",
+    //     "details_title": "Give people paid holidays",
+    //     "details_client": "Personal project",
+    //     "details_date": "May 2021",
+    //     "details_team": "",
+    //     "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
+    //     "repo": "https://github.com/fbecerra/covid-mobility",
+    //     "link": "https://www.fernandobecerra.com/covid-mobility/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/propublica/",
+    //     "img_format": "jpg",
+    //     "img_alt": "",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "essay"
+    //     ],
+    //     "title": "How the army handled two cases of pretrial confinement",
+    //     "description": "What is more efficient at keeping people at home?",
+    //     "details_title": "Give people paid holidays",
+    //     "details_client": "Personal project",
+    //     "details_date": "May 2021",
+    //     "details_team": "",
+    //     "details": "Since the beginning of the pandemic governments have been enforcing lockdowns to keep people at home and control the spread of the virus. For most families, it is hard to stop working without appropiate economic incentives, and, eventually, are forced to go back to their workplaces as soon as the lockdown is over. The key to finding a way of forcing people staying home while getting paid might be more familiar than what you think and it is (un)surprisingly effective: holidays. By analyzing Google's COVID mobility reports, I explored the patterns of time spent at work versus time spent in residential areas and found that holidays are the events that are most efficient at keeping people at home.",
+    //     "repo": "https://github.com/fbecerra/covid-mobility",
+    //     "link": "https://www.fernandobecerra.com/covid-mobility/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/covid19-toll-chile/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualizaiton to explore COVID-19 cases and deaths in Chile.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "dataviz"
+    //     ],
+    //     "title": "The COVID-19 toll in Chile",
+    //     "description": "Visualizing Chile's COVID-19 cases and deaths",
+    //     "details_title": "Visualizing Chile's COVID-19 cases",
+    //     "details_client": "Personal project",
+    //     "details_date": "June 2020",
+    //     "details_team": "",
+    //     "details": "As COVID-19 cases began to steeply increase, graphs became an important way of communicating the impact that the pandemic was having globally. Media outlets, non-profits, government agencies, and other institutions started collecting the number of cases and deaths  in different regions of the world. Many interactive visualizations became very popular overnight as a way to keep track of all that data without it becoming too overwhelming. That motivated me to create one of such visualizations for COVID-19 statistics in Chile, which would focus on making the data at the region and commune levels available for everyone to explore.",
+    //     "repo": "https://github.com/fbecerra/covid19chile",
+    //     "link": "https://www.fernandobecerra.com/covid19chile/",
+    //     "img_dir": "img/overview.jpg"
+    // },
     {
         "dir": "projects/degrees-of-value/",
         "img_format": "jpg",
