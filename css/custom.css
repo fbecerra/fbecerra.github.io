@@ -200,6 +200,14 @@ h2.listing-item-description {
     font-size: 1.25rem;
   }
 
+  .social-icon {
+    padding: 0 6px !important;
+  }
+
+  .social-icon span {
+    display: none;
+  }
+
   .container-fluid {
     margin: 0;
     padding: 0;
