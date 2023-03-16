@@ -178,64 +178,64 @@ const projects = [
     //     "link": "https://www.fernandobecerra.com/covid19chile/",
     //     "img_dir": "img/overview.jpg"
     // },
-    {
-        "dir": "projects/degrees-of-value/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization to explore how different metrics affect the performance of educational institutions in a high-quality accountability system.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dataviz"
-        ],
-        "title": "Degrees of value",
-        "description": "How policymakers can design a high-quality college accountability system",
-        "details_title": "Degrees of value",
-        "details_client": "The Urban Institute",
-        "details_date": "June 2022",
-        "details_team": "Christina Baird and Wesley Jenkins",
-        "details": "A high-quality accountability system for colleges require more than just student loan default rates to hold institutions accountable for the quality of their programs. Here, we explore how additional metrics such as how many students complete their degrees and certificates, how much students earn after leaving school, and how much students still owe five years into loan repayment affect how these institutions perform.",
-        "repo": "https://github.com/UrbanInstitute/threshold-accountability-metrics",
-        "link": "https://www.urban.org/features/degrees-value",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/single-cell-analysis-sequencing/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization to explore the Gen Expression Omnibus dataset and the relation between those genes.",
-        "tags": [
-            "d3.js",
-            "interactive"
-        ],
-        "title": "Single cell analysis and sequencing",
-        "description": "Navigating through the Gen Expression Omnibus dataset",
-        "details_title": "Exploring single cell analysis and sequencing",
-        "details_client": "Needle Genomics",
-        "details_date": "November 2021",
-        "details_team": "Brian Fox",
-        "details": "Visualizing scientific data is always a challenge because of the many variables and dimensions involved, but making it available in an easy-to-explore way should be a priority for scientists. One especially difficult dataset to represent graphically is gene expression data due to the huge quantity of information available for each cell. In this project, I developed a gene expression web application that visualizes single cell RNA-seq data using pre-calculated t-SNE coordinates for each cell. This tool allows experts to navigate through the overwhelming Gen Expression Omnibus dataset and focus on the most relevant genes and their properties.",
-        "repo": "",
-        "link": "",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/paper-citations-authors-collaborations/",
-        "img_format": "jpg",
-        "img_alt": "Interactive network visualization showing citations between papers and collaborations between authors.",
-        "tags": [
-            "d3.js",
-            "interactive"
-        ],
-        "title": "Paper citations, authors collaborations",
-        "description": "Visualizing collaborative networks in academia",
-        "details_title": "Collaboration networks in Academia",
-        "details_client": "Research Rabbit",
-        "details_date": "August 2021",
-        "details_team": "Michael Ma",
-        "details": "For researchers in academia, keeping track of the overwhelming number of publications, citations, and references has always been an issue. Tools like Mendeley or Papers have gained popularity as a way of keeping everything as ordered as possible, focusing on building an easy-to-access reference library. Research Rabbit goes a step further and helps you discover relevant articles for your research providing a map of the relation between papers and authors. To show and explore how these articles are connected, I built a interactive network visualization that allows the user to select a group of articles and discover papers that are cited or referenced by them.",
-        "repo": "",
-        "link": "https://researchrabbitapp.com/",
-        "img_dir": "img/overview.jpg"
-    },
+    // {
+    //     "dir": "projects/degrees-of-value/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualization to explore how different metrics affect the performance of educational institutions in a high-quality accountability system.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "dataviz"
+    //     ],
+    //     "title": "Degrees of value",
+    //     "description": "How policymakers can design a high-quality college accountability system",
+    //     "details_title": "Degrees of value",
+    //     "details_client": "The Urban Institute",
+    //     "details_date": "June 2022",
+    //     "details_team": "Christina Baird and Wesley Jenkins",
+    //     "details": "A high-quality accountability system for colleges require more than just student loan default rates to hold institutions accountable for the quality of their programs. Here, we explore how additional metrics such as how many students complete their degrees and certificates, how much students earn after leaving school, and how much students still owe five years into loan repayment affect how these institutions perform.",
+    //     "repo": "https://github.com/UrbanInstitute/threshold-accountability-metrics",
+    //     "link": "https://www.urban.org/features/degrees-value",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/single-cell-analysis-sequencing/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualization to explore the Gen Expression Omnibus dataset and the relation between those genes.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive"
+    //     ],
+    //     "title": "Single cell analysis and sequencing",
+    //     "description": "Navigating through the Gen Expression Omnibus dataset",
+    //     "details_title": "Exploring single cell analysis and sequencing",
+    //     "details_client": "Needle Genomics",
+    //     "details_date": "November 2021",
+    //     "details_team": "Brian Fox",
+    //     "details": "Visualizing scientific data is always a challenge because of the many variables and dimensions involved, but making it available in an easy-to-explore way should be a priority for scientists. One especially difficult dataset to represent graphically is gene expression data due to the huge quantity of information available for each cell. In this project, I developed a gene expression web application that visualizes single cell RNA-seq data using pre-calculated t-SNE coordinates for each cell. This tool allows experts to navigate through the overwhelming Gen Expression Omnibus dataset and focus on the most relevant genes and their properties.",
+    //     "repo": "",
+    //     "link": "",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/paper-citations-authors-collaborations/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive network visualization showing citations between papers and collaborations between authors.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive"
+    //     ],
+    //     "title": "Paper citations, authors collaborations",
+    //     "description": "Visualizing collaborative networks in academia",
+    //     "details_title": "Collaboration networks in Academia",
+    //     "details_client": "Research Rabbit",
+    //     "details_date": "August 2021",
+    //     "details_team": "Michael Ma",
+    //     "details": "For researchers in academia, keeping track of the overwhelming number of publications, citations, and references has always been an issue. Tools like Mendeley or Papers have gained popularity as a way of keeping everything as ordered as possible, focusing on building an easy-to-access reference library. Research Rabbit goes a step further and helps you discover relevant articles for your research providing a map of the relation between papers and authors. To show and explore how these articles are connected, I built a interactive network visualization that allows the user to select a group of articles and discover papers that are cited or referenced by them.",
+    //     "repo": "",
+    //     "link": "https://researchrabbitapp.com/",
+    //     "img_dir": "img/overview.jpg"
+    // },
     {
         "dir": "projects/hattori-plots/",
         "img_format": "jpg",
