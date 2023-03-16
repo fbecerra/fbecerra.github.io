@@ -39,65 +39,65 @@ const projects = [
     //     "link": "https://epic-institute.github.io/data-explorer/",
     //     "img_dir": "img/overview.png"
     // },
-    {
-        "dir": "projects/beyond-education-outcomes/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dataviz"
-        ],
-        "title": "Beyond education outcomes",
-        "description": "How equitably distributed are educational resources?",
-        "details_title": "Beyond education outcomes",
-        "details_client": "The Urban Institute",
-        "details_date": "January 2022",
-        "details_team": "Allison Feldman and Wesley Jenkins",
-        "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
-        "repo": "https://github.com/UrbanInstitute/education-equity-tool",
-        "link": "https://apps.urban.org/features/education-equity-tool/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/giving-dashboard/",
-        "img_format": "jpg",
-        "img_alt": "Dashboard that shows trends for donations in the United States.",
-        "tags": [
-            "d3.js",
-            "dataviz"
-        ],
-        "title": "Giving dashboard",
-        "description": "A snapshot of the many ways Americans give",
-        "details_title": "Giving dashboard",
-        "details_client": "The Urban Institute",
-        "details_date": "April 2022",
-        "details_team": "JoElla Carman and Wesley Jenkins",
-        "details": "Colleting information from different sources of data, this dashboard gives an overview of the different ways Americans give, including donations to tax-exempt nonprofits, crowdfunding, impact investing, donor-advised funds, and digital giving, among others. The figures in this dashboard represent indicators that illuminate the dominant trends shaping the contemporary giving landscape in the United States.",
-        "repo": "https://github.com/UrbanInstitute/giving-dashboard",
-        "link": "https://apps.urban.org/features/giving-dashboard/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/leaky-pipeline-advanced-placement-testing/",
-        "img_format": "png",
-        "img_alt": "Interactive visualization to explore gaps between AP classes enrollment and AP test taking in Florida.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dataviz"
-        ],
-        "title": "The leaky pipeline of advanced placement testing",
-        "description": "The gap between AP class enrollment and AP test taking",
-        "details_title": "The leaky pipeline of advanced placement testing",
-        "details_client": "The Urban Institute",
-        "details_date": "February 2022",
-        "details_team": "Christina Baird",
-        "details": "Through funding for students, Florida ranks first in the nation for Advanced Plamente (AP) test participariont rate. But even as Florida has worked to ensure equal acces to advanced courses and the benefits that come with them, racial disparities remain. In this interactive map we show the gap betwen AP class enrollment and AP test taking for each racial or ethnic group and each district in Florida.",
-        "repo": "",
-        "link": "https://www.urban.org/policy-centers/center-education-data-and-policy/projects/leaky-pipeline-advanced-placement-testing",
-        "img_dir": "img/overview.png"
-    },
+    // {
+    //     "dir": "projects/beyond-education-outcomes/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "dataviz"
+    //     ],
+    //     "title": "Beyond education outcomes",
+    //     "description": "How equitably distributed are educational resources?",
+    //     "details_title": "Beyond education outcomes",
+    //     "details_client": "The Urban Institute",
+    //     "details_date": "January 2022",
+    //     "details_team": "Allison Feldman and Wesley Jenkins",
+    //     "details": "Student success is typically measured through outcomes, such as test scores and graduation rates. But those measures often overlook the inputs—including access to experienced teachers, counselors, and other resources—that helped create those outcomes. This tool displays the share of students from different racial and ethnic backgrounds who attend schools that have access to experienced teachers, Advanced Placement (AP) classes, and school counselors.",
+    //     "repo": "https://github.com/UrbanInstitute/education-equity-tool",
+    //     "link": "https://apps.urban.org/features/education-equity-tool/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/giving-dashboard/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Dashboard that shows trends for donations in the United States.",
+    //     "tags": [
+    //         "d3.js",
+    //         "dataviz"
+    //     ],
+    //     "title": "Giving dashboard",
+    //     "description": "A snapshot of the many ways Americans give",
+    //     "details_title": "Giving dashboard",
+    //     "details_client": "The Urban Institute",
+    //     "details_date": "April 2022",
+    //     "details_team": "JoElla Carman and Wesley Jenkins",
+    //     "details": "Colleting information from different sources of data, this dashboard gives an overview of the different ways Americans give, including donations to tax-exempt nonprofits, crowdfunding, impact investing, donor-advised funds, and digital giving, among others. The figures in this dashboard represent indicators that illuminate the dominant trends shaping the contemporary giving landscape in the United States.",
+    //     "repo": "https://github.com/UrbanInstitute/giving-dashboard",
+    //     "link": "https://apps.urban.org/features/giving-dashboard/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/leaky-pipeline-advanced-placement-testing/",
+    //     "img_format": "png",
+    //     "img_alt": "Interactive visualization to explore gaps between AP classes enrollment and AP test taking in Florida.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "dataviz"
+    //     ],
+    //     "title": "The leaky pipeline of advanced placement testing",
+    //     "description": "The gap between AP class enrollment and AP test taking",
+    //     "details_title": "The leaky pipeline of advanced placement testing",
+    //     "details_client": "The Urban Institute",
+    //     "details_date": "February 2022",
+    //     "details_team": "Christina Baird",
+    //     "details": "Through funding for students, Florida ranks first in the nation for Advanced Plamente (AP) test participariont rate. But even as Florida has worked to ensure equal acces to advanced courses and the benefits that come with them, racial disparities remain. In this interactive map we show the gap betwen AP class enrollment and AP test taking for each racial or ethnic group and each district in Florida.",
+    //     "repo": "",
+    //     "link": "https://www.urban.org/policy-centers/center-education-data-and-policy/projects/leaky-pipeline-advanced-placement-testing",
+    //     "img_dir": "img/overview.png"
+    // },
     {
         "dir": "projects/give-people-paid-holidays/",
         "img_format": "jpg",
