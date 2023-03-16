@@ -1,44 +1,44 @@
 const projects = [
-    {
-        "dir": "projects/inflation-per-age/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization of a Voronoi treemap to explore how inflation affects people of different ages.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dataviz"
-        ],
-        "title": "Inflation for Americans at each age",
-        "description": "How does inflation affect Americans at different ages?",
-        "details_title": "Inflation for Americans at each age",
-        "details_client": "USA Facts",
-        "details_date": "July 2022",
-        "details_team": "Amanda Cox, Amber Thomas, and Ryan Shackleton",
-        "details": "According to the Bureau of Labor Statistics, consumer prices rose 9.1% from June 2021 to June 2022, the highest rate since 1981. But households in different age groups spend money differently, so inflation rates vary by age, too. This interactive visualization shows average spending for households at each age, in more than 200 categories that make up the inflation index.",
-        "repo": "",
-        "link": "https://usafacts.org/projects/cpi/inflation-parts",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/epic-data-explorer/",
-        "img_format": "png",
-        "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "dashboard"
-        ],
-        "title": "Epic Data Explorer",
-        "description": "A web-based tool to navigate through the Positive Disruption model output.",
-        "details_title": "Positive Disruption Data Explorer",
-        "details_client": "Epic Institute",
-        "details_date": "November 2022",
-        "details_team": "Nick Adams",
-        "details": "The Positive Disruption model examines low- and no-carbon technologies and practices in the energy, agriculture, and land-use sectors, modeling how adoption of these technologies and practices can be expected to grow over the next 30 years, and the effect they will have on the process of reversing climate change. The Positive Disruption Data Explorer is a web-based tool that allows for easy navigation through model results.",
-        "repo": "https://github.com/Epic-Institute/data-explorer",
-        "link": "https://epic-institute.github.io/data-explorer/",
-        "img_dir": "img/overview.png"
-    },
+    // {
+    //     "dir": "projects/inflation-per-age/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualization of a Voronoi treemap to explore how inflation affects people of different ages.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "dataviz"
+    //     ],
+    //     "title": "Inflation for Americans at each age",
+    //     "description": "How does inflation affect Americans at different ages?",
+    //     "details_title": "Inflation for Americans at each age",
+    //     "details_client": "USA Facts",
+    //     "details_date": "July 2022",
+    //     "details_team": "Amanda Cox, Amber Thomas, and Ryan Shackleton",
+    //     "details": "According to the Bureau of Labor Statistics, consumer prices rose 9.1% from June 2021 to June 2022, the highest rate since 1981. But households in different age groups spend money differently, so inflation rates vary by age, too. This interactive visualization shows average spending for households at each age, in more than 200 categories that make up the inflation index.",
+    //     "repo": "",
+    //     "link": "https://usafacts.org/projects/cpi/inflation-parts",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/epic-data-explorer/",
+    //     "img_format": "png",
+    //     "img_alt": "Interactive visualization to explore gaps in educational resources for students from different racial and ethnic backgrounds.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "dashboard"
+    //     ],
+    //     "title": "Epic Data Explorer",
+    //     "description": "A web-based tool to navigate through the Positive Disruption model output.",
+    //     "details_title": "Positive Disruption Data Explorer",
+    //     "details_client": "Epic Institute",
+    //     "details_date": "November 2022",
+    //     "details_team": "Nick Adams",
+    //     "details": "The Positive Disruption model examines low- and no-carbon technologies and practices in the energy, agriculture, and land-use sectors, modeling how adoption of these technologies and practices can be expected to grow over the next 30 years, and the effect they will have on the process of reversing climate change. The Positive Disruption Data Explorer is a web-based tool that allows for easy navigation through model results.",
+    //     "repo": "https://github.com/Epic-Institute/data-explorer",
+    //     "link": "https://epic-institute.github.io/data-explorer/",
+    //     "img_dir": "img/overview.png"
+    // },
     {
         "dir": "projects/beyond-education-outcomes/",
         "img_format": "jpg",
