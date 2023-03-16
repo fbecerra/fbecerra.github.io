@@ -259,27 +259,27 @@ h2.listing-item-description {
 }
 
 .details {
-  display: none;
+  /* display: none;
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 2; */
   background-color: white;
   overflow: scroll;
 }
 
-#project-details {
+.project-details {
   font-size: 1.1rem;
   font-weight: 300;
 }
 
-#project-title {
+.project-title {
   font-size: 2.5rem;
 }
 
-#project-client::after {
+.project-client::after {
   content: "";
   height: 5px;
   width: 5px;
@@ -294,7 +294,7 @@ h2.listing-item-description {
   margin-top: 30px;
 }
 
-#project-team {
+.project-team {
   font-size: 1.1rem;
   font-weight: 300;
   font-style: italic;
