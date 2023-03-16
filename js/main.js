@@ -236,66 +236,66 @@ const projects = [
     //     "link": "https://researchrabbitapp.com/",
     //     "img_dir": "img/overview.jpg"
     // },
-    {
-        "dir": "projects/hattori-plots/",
-        "img_format": "jpg",
-        "img_alt": "Static plots showing relationship between fat and fat-free mass for a cohort of Chilean kids.",
-        "tags": [
-            "python",
-            "data science",
-            "dataviz"
-        ],
-        "title": "Hattori plots",
-        "description": "Studying fatty liver desease in Chilean populations",
-        "details_title": "Studying Non-Alcoholic Fatty Liver Desease in Chilean populations",
-        "details_client": "Pontifical Catholic University of Chile",
-        "details_date": "October 2021",
-        "details_team": "Mariana Faune, Thelma Cantillo, Gigiola Alberti, and Juan Cristóbal Gana",
-        "details": "Obesity is one of the most common deseases in the Chilean young population. Because of this, it is crucial to study its risks and relationships to fat content in other parts of the body such as liver and pancreas. For that, we analyzed data from a cohort of people that were followed annually since their birth until their 18th birthday. We studied the evolution of their fat mass, fat-free mass, height, and BMI, and related those quantities to the risk of presenting Non-Alcoholic Fatty Liver Desease and Non-Alcoholic Fatty Pancreas Desease.",
-        "repo": "",
-        "link": "",
-        "img_dir": "img/thumbnail.png"
-    },
-    {
-        "dir": "projects/joy-of-parsing/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization to explore Bob Ross paintings and how they cluster together based on the transcripts of the show The Joy of Painting.",
-        "tags": [
-            "d3.js",
-            "python",
-            "data science"
-        ],
-        "title": "The joy of parsing",
-        "description": "Visualizing Bob Ross's paintings",
-        "details_title": "The Joy of Parsing",
-        "details_client": "Fathom Information Design",
-        "details_date": "May 2019",
-        "details_team": "Paul Cronan and Ben Fry",
-        "details": "The first time I watched and episode of <i>The Joy of Painting</i> I was mesmerized by the paintings, the phrases, and Bob Ross. A few months after, we were developing tools to explore and understand large archives at Fathom. While my colleagues were analyzing serious document sets, I decided to apply those techniques to the transcripts of each episode of <i>The Joy of Painting</i>. What started as a simple analysis of the frequency of iconic phrases such as <i>Let's draw some happy little trees</i> and <i>Just beat the devil out of it</i> quickly evolved into an interactive visualization to explore his paintings.",
-        "repo": "",
-        "link": "https://fathom.info/bobross",
-        "img_dir": "img/overview.jpg"
-    },
-    {
-        "dir": "projects/formation-first-black-holes/",
-        "img_format": "jpg",
-        "img_alt": "Scientific research studying the formation of supermassive black hole seeds in the early Universe.",
-        "tags": [
-            "python",
-            "astronomy",
-            "research"
-        ],
-        "title": "Formation of the first black holes",
-        "description": "Simulating the creation of early black holes in the Universe",
-        "details_title": "Formation of the first supermassive black holes in the Universe",
-        "details_client": "Graduate Research",
-        "details_date": "May 2018",
-        "details_team": "Volker Bromm and Lars Hernquist",
-        "details": "Black holes have a reputation of being mysterious objects where time and space lose their meaning, and as such they have always attracted our curiosity. So far, astronomers have a pretty good idea of how present-day black holes formed, but the picture is not that clear for the <i>first</i> black holes - those formed in the early days of the Universe. These objects are particularly hard to study since we can't observe them with our current telescopes. In order to study their formation, I ran numerical simulations of the conditions in the early Universe and followed their evolution until they became massive enough to be considered a black hole.",
-        "repo": "https://github.com/fbecerra/pacha",
-        "link": "https://fernandobecerra.com/astro",
-        "img_dir": ""
-    },
+    // {
+    //     "dir": "projects/hattori-plots/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Static plots showing relationship between fat and fat-free mass for a cohort of Chilean kids.",
+    //     "tags": [
+    //         "python",
+    //         "data science",
+    //         "dataviz"
+    //     ],
+    //     "title": "Hattori plots",
+    //     "description": "Studying fatty liver desease in Chilean populations",
+    //     "details_title": "Studying Non-Alcoholic Fatty Liver Desease in Chilean populations",
+    //     "details_client": "Pontifical Catholic University of Chile",
+    //     "details_date": "October 2021",
+    //     "details_team": "Mariana Faune, Thelma Cantillo, Gigiola Alberti, and Juan Cristóbal Gana",
+    //     "details": "Obesity is one of the most common deseases in the Chilean young population. Because of this, it is crucial to study its risks and relationships to fat content in other parts of the body such as liver and pancreas. For that, we analyzed data from a cohort of people that were followed annually since their birth until their 18th birthday. We studied the evolution of their fat mass, fat-free mass, height, and BMI, and related those quantities to the risk of presenting Non-Alcoholic Fatty Liver Desease and Non-Alcoholic Fatty Pancreas Desease.",
+    //     "repo": "",
+    //     "link": "",
+    //     "img_dir": "img/thumbnail.png"
+    // },
+    // {
+    //     "dir": "projects/joy-of-parsing/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualization to explore Bob Ross paintings and how they cluster together based on the transcripts of the show The Joy of Painting.",
+    //     "tags": [
+    //         "d3.js",
+    //         "python",
+    //         "data science"
+    //     ],
+    //     "title": "The joy of parsing",
+    //     "description": "Visualizing Bob Ross's paintings",
+    //     "details_title": "The Joy of Parsing",
+    //     "details_client": "Fathom Information Design",
+    //     "details_date": "May 2019",
+    //     "details_team": "Paul Cronan and Ben Fry",
+    //     "details": "The first time I watched and episode of <i>The Joy of Painting</i> I was mesmerized by the paintings, the phrases, and Bob Ross. A few months after, we were developing tools to explore and understand large archives at Fathom. While my colleagues were analyzing serious document sets, I decided to apply those techniques to the transcripts of each episode of <i>The Joy of Painting</i>. What started as a simple analysis of the frequency of iconic phrases such as <i>Let's draw some happy little trees</i> and <i>Just beat the devil out of it</i> quickly evolved into an interactive visualization to explore his paintings.",
+    //     "repo": "",
+    //     "link": "https://fathom.info/bobross",
+    //     "img_dir": "img/overview.jpg"
+    // },
+    // {
+    //     "dir": "projects/formation-first-black-holes/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Scientific research studying the formation of supermassive black hole seeds in the early Universe.",
+    //     "tags": [
+    //         "python",
+    //         "astronomy",
+    //         "research"
+    //     ],
+    //     "title": "Formation of the first black holes",
+    //     "description": "Simulating the creation of early black holes in the Universe",
+    //     "details_title": "Formation of the first supermassive black holes in the Universe",
+    //     "details_client": "Graduate Research",
+    //     "details_date": "May 2018",
+    //     "details_team": "Volker Bromm and Lars Hernquist",
+    //     "details": "Black holes have a reputation of being mysterious objects where time and space lose their meaning, and as such they have always attracted our curiosity. So far, astronomers have a pretty good idea of how present-day black holes formed, but the picture is not that clear for the <i>first</i> black holes - those formed in the early days of the Universe. These objects are particularly hard to study since we can't observe them with our current telescopes. In order to study their formation, I ran numerical simulations of the conditions in the early Universe and followed their evolution until they became massive enough to be considered a black hole.",
+    //     "repo": "https://github.com/fbecerra/pacha",
+    //     "link": "https://fernandobecerra.com/astro",
+    //     "img_dir": ""
+    // },
     {
         "dir": "projects/la-county-covid19-watch/",
         "img_format": "png",
