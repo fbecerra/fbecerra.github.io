@@ -296,83 +296,83 @@ const projects = [
     //     "link": "https://fernandobecerra.com/astro",
     //     "img_dir": ""
     // },
-    {
-        "dir": "projects/la-county-covid19-watch/",
-        "img_format": "png",
-        "img_alt": "Interactive visualizaiton to show the evolution of COVID-19 cases for the LA County Department of Public Health.",
-        "tags": [
-            "d3.js",
-            "data visualization"
-        ],
-        "title": "LA County's COVID-19 Watch",
-        "description": "Tracking LA Country's COVID-19 statistics",
-        "details_title": "Tracking LA County's COVID-19 statistics",
-        "details_client": "LA County Department of Public Health",
-        "details_date": "October 2020",
-        "details_team": "Anjali Tripathi",
-        "details": "As the COVID-19 pandemic developed, more and more data became available to inform researchers, the media, and the general population. In order to inform their citizens of the current state of the pandemic, the County of Los Angeles Health Department published in their website a series of statistics regarding testing, symptoms, and deaths. Some of these graphics were generated as an image and needed to be updated manually every day, wasting time and resources. In order to optimize this process, I implemented a d3 plot that self-updates once the dataset is updated and adds interactivity to give more details to the user.",
-        "repo": "",
-        "link": "http://publichealth.lacounty.gov/acd/ncorona2019/covidwatch/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/astrollytelling/",
-        "img_format": "jpg",
-        "img_alt": "Project to teach astronomy concepts through interactive visualizations and essays.",
-        "tags": [
-            "d3.js",
-            "interactive",
-            "storytelling"
-        ],
-        "title": "Astrollytelling",
-        "description": "Teaching astronomy through interactive visualizations",
-        "details_title": "Teaching astronomy through interactive visualizations",
-        "details_client": "Personal project",
-        "details_date": "May 2018",
-        "details_team": "Jieun Choi",
-        "details": "Scientific research is usually made available to the community through publications in renowned journals or presentations at conferences. The audience of these media is often the scientific community, which is used to a very technical language and static graphical representations and hence forces the authors to preserve this format. I wanted to communicate astronomy research in a different format, having the general audience in mind, avoiding jargon and adding interactivity. Since my field of expertise in grad school was astronomy, I decided to create Astrollytelling and use interactive visualizations to explain astronomy concepts.",
-        "repo": "https://github.com/astrollytelling",
-        "link": "https://astrollytelling.github.io",
-        "img_dir": "img/overview.jpg"
-    },
-    {
-        "dir": "projects/plebiscite-new-constitution/",
-        "img_format": "jpg",
-        "img_alt": "Interactive visualization showing the timeline of the bills introduced to change the Chilean constitution.",
-        "tags": [
-            "d3.js",
-            "interactive"
-        ],
-        "title": "Changing the constitution",
-        "description": "Exploring bills introduced to reform the Chilean Constitution",
-        "details_title": "Reforming Chile's Constitution",
-        "details_client": "Personal project",
-        "details_date": "October 2020",
-        "details_team": "",
-        "details": "In 2020 Chile held a national plebiscite to decide if its citizens wanted to have a new Constitution. The previous one had been written during Pinochet's dictatorship in 1980 and had been modified <a href='https://pbs.twimg.com/media/EkTB4uXWkAIIvuj.jpg' target='_blank'>more than 250 times</a> since its inception.  Right-wing parties used these modifications to campaing against a new constitution under the motto <i>Reject to reform</i> (reject the new constitution, to reform the previous one) and that rethoric was soon picked up by media outlets. But these facts were lacking context: how many times Chilean representatives have tried to modify the constitution? Is 257 times too many or too few? To answer these questions, I analyzed the bills introduce to Chile's Chamber of Deputies to modify the Constitution since 1980 and track them until their approval or rejection.",
-        "repo": "https://github.com/fbecerra/reformas",
-        "link": "https://www.fernandobecerra.com/reformas/",
-        "img_dir": "img/overview.png"
-    },
-    {
-        "dir": "projects/who-should-pay/",
-        "img_format": "jpg",
-        "img_alt": "Data-driven visualization of how policymakers can change income-driven repayment plan designs to creat more affordable payments.",
-        "tags": [
-            "d3.js",
-            "dataviz"
-        ],
-        "title": "Who should pay?",
-        "description": "Designing a more equitable income-driven repayment plan",
-        "details_title": "Who should pay?",
-        "details_client": "The Urban Institute",
-        "details_date": "June 2022",
-        "details_team": "Christina Baird and Wesley Jenkins",
-        "details": "In a nation where 43 million people have student loan debt, an income-driven repayment (IDR) plan can offer a more affordable option for paying off loan balances. This visualization illustrates how policymakers can change IDR plan designs to create more affordable payments, more equitable repayment timelines, and more manageable debt balances, all while ensuring the system’s continued viability.",
-        "repo": "",
-        "link": "https://www.urban.org/features/who-should-pay",
-        "img_dir": "img/overview.png"
-    },
+    // {
+    //     "dir": "projects/la-county-covid19-watch/",
+    //     "img_format": "png",
+    //     "img_alt": "Interactive visualizaiton to show the evolution of COVID-19 cases for the LA County Department of Public Health.",
+    //     "tags": [
+    //         "d3.js",
+    //         "data visualization"
+    //     ],
+    //     "title": "LA County's COVID-19 Watch",
+    //     "description": "Tracking LA Country's COVID-19 statistics",
+    //     "details_title": "Tracking LA County's COVID-19 statistics",
+    //     "details_client": "LA County Department of Public Health",
+    //     "details_date": "October 2020",
+    //     "details_team": "Anjali Tripathi",
+    //     "details": "As the COVID-19 pandemic developed, more and more data became available to inform researchers, the media, and the general population. In order to inform their citizens of the current state of the pandemic, the County of Los Angeles Health Department published in their website a series of statistics regarding testing, symptoms, and deaths. Some of these graphics were generated as an image and needed to be updated manually every day, wasting time and resources. In order to optimize this process, I implemented a d3 plot that self-updates once the dataset is updated and adds interactivity to give more details to the user.",
+    //     "repo": "",
+    //     "link": "http://publichealth.lacounty.gov/acd/ncorona2019/covidwatch/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/astrollytelling/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Project to teach astronomy concepts through interactive visualizations and essays.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive",
+    //         "storytelling"
+    //     ],
+    //     "title": "Astrollytelling",
+    //     "description": "Teaching astronomy through interactive visualizations",
+    //     "details_title": "Teaching astronomy through interactive visualizations",
+    //     "details_client": "Personal project",
+    //     "details_date": "May 2018",
+    //     "details_team": "Jieun Choi",
+    //     "details": "Scientific research is usually made available to the community through publications in renowned journals or presentations at conferences. The audience of these media is often the scientific community, which is used to a very technical language and static graphical representations and hence forces the authors to preserve this format. I wanted to communicate astronomy research in a different format, having the general audience in mind, avoiding jargon and adding interactivity. Since my field of expertise in grad school was astronomy, I decided to create Astrollytelling and use interactive visualizations to explain astronomy concepts.",
+    //     "repo": "https://github.com/astrollytelling",
+    //     "link": "https://astrollytelling.github.io",
+    //     "img_dir": "img/overview.jpg"
+    // },
+    // {
+    //     "dir": "projects/plebiscite-new-constitution/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Interactive visualization showing the timeline of the bills introduced to change the Chilean constitution.",
+    //     "tags": [
+    //         "d3.js",
+    //         "interactive"
+    //     ],
+    //     "title": "Changing the constitution",
+    //     "description": "Exploring bills introduced to reform the Chilean Constitution",
+    //     "details_title": "Reforming Chile's Constitution",
+    //     "details_client": "Personal project",
+    //     "details_date": "October 2020",
+    //     "details_team": "",
+    //     "details": "In 2020 Chile held a national plebiscite to decide if its citizens wanted to have a new Constitution. The previous one had been written during Pinochet's dictatorship in 1980 and had been modified <a href='https://pbs.twimg.com/media/EkTB4uXWkAIIvuj.jpg' target='_blank'>more than 250 times</a> since its inception.  Right-wing parties used these modifications to campaing against a new constitution under the motto <i>Reject to reform</i> (reject the new constitution, to reform the previous one) and that rethoric was soon picked up by media outlets. But these facts were lacking context: how many times Chilean representatives have tried to modify the constitution? Is 257 times too many or too few? To answer these questions, I analyzed the bills introduce to Chile's Chamber of Deputies to modify the Constitution since 1980 and track them until their approval or rejection.",
+    //     "repo": "https://github.com/fbecerra/reformas",
+    //     "link": "https://www.fernandobecerra.com/reformas/",
+    //     "img_dir": "img/overview.png"
+    // },
+    // {
+    //     "dir": "projects/who-should-pay/",
+    //     "img_format": "jpg",
+    //     "img_alt": "Data-driven visualization of how policymakers can change income-driven repayment plan designs to creat more affordable payments.",
+    //     "tags": [
+    //         "d3.js",
+    //         "dataviz"
+    //     ],
+    //     "title": "Who should pay?",
+    //     "description": "Designing a more equitable income-driven repayment plan",
+    //     "details_title": "Who should pay?",
+    //     "details_client": "The Urban Institute",
+    //     "details_date": "June 2022",
+    //     "details_team": "Christina Baird and Wesley Jenkins",
+    //     "details": "In a nation where 43 million people have student loan debt, an income-driven repayment (IDR) plan can offer a more affordable option for paying off loan balances. This visualization illustrates how policymakers can change IDR plan designs to create more affordable payments, more equitable repayment timelines, and more manageable debt balances, all while ensuring the system’s continued viability.",
+    //     "repo": "",
+    //     "link": "https://www.urban.org/features/who-should-pay",
+    //     "img_dir": "img/overview.png"
+    // },
 ];
 
 const logos = [
