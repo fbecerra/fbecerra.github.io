@@ -292,6 +292,12 @@ h2.listing-item-description {
 
 .details-title {
   margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.details-description {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300 !important;
 }
 
 .project-team {
