@@ -65,6 +65,16 @@ p, h2 {
   text-decoration: none;
 }
 
+.sidebar-logo p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400 !important;
+  margin: 0;
+}
+
+.sidebar-logo p.centered {
+  margin-left: 55px;
+}
+
 .main-div {
   padding-top: 0;
 }
@@ -78,6 +88,17 @@ li.list-inline-item {
   color: #5e5e5e;
   font-family: 'Lato', sans-serif;
   display: inline-block;
+  text-transform: uppercase;
+  font-size: 10px !important;
+  list-style-type: none;
+  margin: 0 !important;
+  border-radius: 2px;
+  padding: 2px 10px 2px 0 !important;
+}
+
+li.list-social-item {
+  color: #5e5e5e;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   font-size: 10px !important;
   list-style-type: none;
@@ -225,11 +246,11 @@ h2.listing-item-description {
     padding: 0 1.75rem !important;
   }
 
-  #project-title {
+  .project-title {
     font-size: 2rem !important;
   }
 
-  #project-team {
+  .project-client, project-team {
     font-size: 1rem !important;
   }
 }
@@ -270,9 +291,9 @@ h2.listing-item-description {
   overflow: scroll;
 }
 
-.project-details {
+.project-client {
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .project-title {
@@ -286,7 +307,7 @@ h2.listing-item-description {
   background-color: #8c8c8c;
   border-radius: 50%;
   display: inline-block;
-  transform: translate(4px,-3.5px);
+  transform: translate(1px,-3.5px);
   margin: 0 8px;
 }
 
