@@ -4,3 +4,6 @@
 
 # Webstorm stuff
 .idea/
+
+#VS Code stuff
+.vscode/
