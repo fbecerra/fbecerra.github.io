@@ -327,6 +327,10 @@ h2.listing-item-description {
   font-style: italic;
 }
 
+.project-image {
+  text-align: center;
+}
+
 #close, #left, #right {
   position: fixed;
   cursor: pointer;
