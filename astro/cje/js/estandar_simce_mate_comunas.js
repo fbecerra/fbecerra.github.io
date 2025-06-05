@@ -274,7 +274,7 @@ Promise.all([
                     .style('display', 'inline-block')
                     .html(sentences.join(". \n"));
     
-                saveSvg(svg.node(), reg+'-'+col+'-'+ne+'.svg');
+                // saveSvg(svg.node(), reg+'-'+col+'-'+ne+'.svg');
             })
         })
         

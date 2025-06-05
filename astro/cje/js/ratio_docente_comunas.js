@@ -384,7 +384,7 @@ Promise.all([
                     }
                 }
 
-                saveSvg(svg.node(), reg+'-'+indicador+'-'+col+'.svg');
+                // saveSvg(svg.node(), reg+'-'+indicador+'-'+col+'.svg');
             })
         };
 
