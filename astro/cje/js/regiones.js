@@ -89,6 +89,8 @@ Promise.all([
                     .attr("font-size", 10)
                     .text((_,i) => i === 0 ? 'Promedio' : 'nacional');
 
+            // saveSvg(svg.node(), reg+'.svg');
+
             if (reg !== 'TODAS') {
                 const regionValue = datum.filter(d => d.data.region === reg)[0].data[col];
                 const diff = regionValue - nacional[0][col];
@@ -199,6 +201,8 @@ Promise.all([
                     .attr("y", (_,i) => chartheight / 2 - 50 + i * 14)
                     .attr("font-size", 10)
                     .text((_,i) => i === 0 ? 'Promedio' : 'nacional');
+
+            // saveSvg(svg.node(), reg+'-'+col+'.svg');
 
             if (!col.endsWith('tot')) {
                 const regionValue = datum.filter(d => d.data.col === col)[0].data.value;
